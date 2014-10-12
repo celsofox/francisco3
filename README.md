@@ -11,5 +11,6 @@ Usage
 * `$ source setenv`
 * `$ ./configure`
 * `$ make`
-* Choose a dissemination model in the "examples" directory and `cd` into it.
+* Choose a dissemination model in the "examples" directory.
+* `$ cd examples/<MODEL_NAME>`
 * `$ ./run`
