@@ -1,0 +1,31 @@
+
+#FRANCISCO_SRC_DIR=~/francisco2
+#FRANCISCO_INCLUDE_DIRS=$(get-all-include-dirs --delimeter : ${FRANCISCO_SRC_DIR}/src)
+
+OMNET_SRC_DIR=~/src/_omnetpp-4.4.1
+OMNET_BIN_DIR=${OMNET_SRC_DIR}/bin
+OMNET_LIB_DIR=${OMNET_SRC_DIR}/lib
+OMNET_INCLUDE_DIR=${OMNET_SRC_DIR}/include 
+
+VEINS_SRC_DIR=~/src/veins-veins-3.0
+VEINS_LIB_DIR=${VEINS_SRC_DIR}/out/gcc-debug/src
+VEINS_INCLUDE_DIRS=$(get-all-include-dirs --delimeter : ${VEINS_SRC_DIR})
+
+SUMO_HOME=~/src/sumo-0.21.0 
+SUMO_BIN_DIR=${SUMO_HOME}/bin
+
+
+export PATH=$(pwd)/src/scripts:${SUMO_BIN_DIR}:${OMNET_BIN_DIR}:${PATH}
+export LD_LIBRARY_PATH=${OMNET_LIB_DIR}:${VEINS_LIB_DIR}:${LD_LIBRARY_PATH}
+#export CPATH=/usr/include/c++/4.8/:${FRANCISCO_INCLUDE_DIRS}:${OMNET_INCLUDE_DIR}:${VEINS_INCLUDE_DIRS}:${CPATH}
+export CPATH=/usr/include/c++/4.8/:${OMNET_INCLUDE_DIR}:${VEINS_INCLUDE_DIRS}:${CPATH}
+export C_PATH=${CPATH}
+
+#export NEDPATH=${FRANCISCO_SRC_DIR}/src:${VEINS_SRC_DIR}/src
+export NEDPATH=${VEINS_SRC_DIR}/src
+
+
+alias start-sumo="VEINS_SRC_DIR=${VEINS_SRC_DIR} SUMO_HOME=${SUMO_HOME} src/scripts/start-sumo"
+alias start-qt="src/scripts/start-qt"
+
+echo 'sourcing file "setenv"...'

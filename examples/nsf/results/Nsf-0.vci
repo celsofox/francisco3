@@ -1,0 +1,120 @@
+file 97127 1413132573                                           
+version 2
+run Nsf-0-20141012-18:49:16-8229
+attr configname Nsf
+attr datetime 20141012-18:49:16
+attr experiment Nsf
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network org.car2x.veins.nodes.FranciscoScenario
+attr processid 8229
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 10  FranciscoScenario.node[0].veinsmobility  posx  ETV
+vector 11  FranciscoScenario.node[0].veinsmobility  posy  ETV
+vector 12  FranciscoScenario.node[0].veinsmobility  speed  ETV
+vector 13  FranciscoScenario.node[0].veinsmobility  acceleration  ETV
+vector 14  FranciscoScenario.node[0].veinsmobility  co2emission  ETV
+vector 21  FranciscoScenario.node[1].veinsmobility  posx  ETV
+vector 22  FranciscoScenario.node[1].veinsmobility  posy  ETV
+vector 23  FranciscoScenario.node[1].veinsmobility  speed  ETV
+vector 24  FranciscoScenario.node[1].veinsmobility  acceleration  ETV
+vector 25  FranciscoScenario.node[1].veinsmobility  co2emission  ETV
+vector 0  FranciscoScenario.stats  allBeaconsReceivedSignal:vector  ETV
+attr description  "All Beacons Received"
+vector 3  FranciscoScenario.stats  allMessagesReceivedSignal:vector  ETV
+attr description  "All Messages Received"
+vector 16  FranciscoScenario.node[1].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 17  FranciscoScenario.node[1].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 5  FranciscoScenario.node[0].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 6  FranciscoScenario.node[0].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 32  FranciscoScenario.node[2].veinsmobility  posx  ETV
+vector 33  FranciscoScenario.node[2].veinsmobility  posy  ETV
+vector 34  FranciscoScenario.node[2].veinsmobility  speed  ETV
+vector 35  FranciscoScenario.node[2].veinsmobility  acceleration  ETV
+vector 36  FranciscoScenario.node[2].veinsmobility  co2emission  ETV
+vector 27  FranciscoScenario.node[2].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 28  FranciscoScenario.node[2].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 43  FranciscoScenario.node[3].veinsmobility  posx  ETV
+vector 44  FranciscoScenario.node[3].veinsmobility  posy  ETV
+vector 45  FranciscoScenario.node[3].veinsmobility  speed  ETV
+vector 46  FranciscoScenario.node[3].veinsmobility  acceleration  ETV
+vector 47  FranciscoScenario.node[3].veinsmobility  co2emission  ETV
+vector 38  FranciscoScenario.node[3].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 39  FranciscoScenario.node[3].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 54  FranciscoScenario.node[4].veinsmobility  posx  ETV
+vector 55  FranciscoScenario.node[4].veinsmobility  posy  ETV
+vector 56  FranciscoScenario.node[4].veinsmobility  speed  ETV
+vector 57  FranciscoScenario.node[4].veinsmobility  acceleration  ETV
+vector 58  FranciscoScenario.node[4].veinsmobility  co2emission  ETV
+vector 49  FranciscoScenario.node[4].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 50  FranciscoScenario.node[4].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 65  FranciscoScenario.node[5].veinsmobility  posx  ETV
+vector 66  FranciscoScenario.node[5].veinsmobility  posy  ETV
+vector 67  FranciscoScenario.node[5].veinsmobility  speed  ETV
+vector 68  FranciscoScenario.node[5].veinsmobility  acceleration  ETV
+vector 69  FranciscoScenario.node[5].veinsmobility  co2emission  ETV
+vector 60  FranciscoScenario.node[5].appl  beaconReceivedSignal:vector  ETV
+attr description  "Beacon Message Received"
+vector 61  FranciscoScenario.node[5].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+6	3969 889 95 1644 3.724951084063 16.750657341569 37 1 1 37 37
+5	4858 889 95 1644 3.724951084063 16.750657341569 37 1 1 37 37
+14	5747 4102 4 1647 0.3 17 168 0.973 9.3496226877566 628.21965778217 3286.9860732296
+13	9849 4512 4 1647 0.3 17 168 -4.0311948625099 2.6 107.39163741237 773.99329515159
+12	14361 4572 3 1647 0.2 17 169 0.25286542447004 13.884905587435 1430.4828069834 14630.975803058
+11	18933 4597 2 1647 0.1 17 170 1578.0861504339 1679.900635263 275988.71608501 448261102.36726
+10	23530 4583 2 1647 0.1 17 170 2333.839227637 2415.8694684898 402912.00773279 955088623.47202
+17	28113 926 79 1640 3.627450041126 16.750657312539 37 1 1 37 37
+16	29039 926 79 1640 3.627450041126 16.750657312539 37 1 1 37 37
+25	29965 3268 61 1647 3.3 17 138 0.973 9.4720801065986 442.95169798778 2182.3276150966
+24	33233 3834 61 1647 3.3 17 138 -3.6539664948576 2.6 35.654652434139 580.30115359967
+23	37067 3805 60 1647 3.2 17 139 0.25157376560476 13.885628737812 1177.9863838253 12146.277124766
+22	40872 3824 59 1647 3.1 17 140 1578.0861504339 1660.5108080674 225865.88286394 364512376.62119
+21	44696 3837 59 1647 3.1 17 140 2334.6507704078 2415.8694684898 332776.83506507 791119178.35806
+28	48533 878 205 1636 6.627453503545 16.750657246484 35 1 1 35 35
+27	49411 878 205 1636 6.627453503545 16.750657246484 35 1 1 35 35
+36	50289 2710 181 1647 6.3 17 108 0.973 10.397915429126 399.23547758928 2139.9993420045
+35	52999 3041 181 1647 6.3 17 108 -3.7379034075544 2.5938958732877 80.577090659535 433.70827855619
+34	56040 3016 180 1647 6.2 17 109 0.25726502669835 13.882936061814 987.09108694626 10761.387030693
+33	59056 3030 179 1647 6.1 17 110 1578.0861504339 1644.4930605395 176281.78086186 282556462.51791
+32	62086 3033 179 1647 6.1 17 110 2345.0215805294 2415.8694684898 262610.19404801 627004414.36345
+39	65119 733 430 1632 9.627447736419 16.750657121805 29 1 1 29 29
+38	65852 733 430 1632 9.627447736419 16.750657121805 29 1 1 29 29
+47	66585 2145 400 1647 9.3 17 78 0.973 9.7555978680397 364.79468427664 2113.2743069173
+46	68730 2197 400 1647 9.3 17 78 -1.0563149696216 2.5679176525911 136.02857810104 286.47657711018
+45	70927 2218 399 1647 9.2 17 79 0.24904955297103 13.887864147935 629.19596454409 6472.1397427275
+44	73145 2242 398 1647 9.1 17 80 1578.0861504339 1618.6322252536 127249.39234259 202417720.66091
+43	75387 2239 398 1647 9.1 17 80 2370.5540116947 2415.8694684898 191962.98100898 460637433.3455
+50	77626 514 790 1628 12.627445731291 16.750657000926 20 1 1 20 20
+49	78140 514 790 1628 12.627445731291 16.750657000926 20 1 1 20 20
+58	78654 1360 754 1647 12.3 17 48 1.4216916713365 6.4098794712243 182.32253638341 783.09680113573
+57	80014 1361 754 1647 12.3 17 48 1.3203717359574 2.588163960375 94.462605212779 191.57586623552
+56	81375 1394 753 1647 12.2 17 49 0.25788759189239 9.7041481131703 252.85844152254 1680.0178913845
+55	82769 1420 752 1647 12.1 17 50 1578.0861504339 1592.1482153116 79102.05527551 125143581.77482
+54	84189 1419 752 1647 12.1 17 50 2396.7017038853 2415.8694684898 120438.93559065 290112521.81574
+61	85608 182 1321 1605 15.627447803053 16.724954937667 7 1 1 7 7
+60	85790 182 1321 1605 15.627447803053 16.724954937667 7 1 1 7 7
+69	85972 515 1279 1647 15.3 17 18 1.4465254701588 3.064411187272 41.124244985113 97.86327288666
+68	86487 517 1279 1647 15.3 17 18 1.3658855316928 2.5901117524535 36.359755078034 76.263630663248
+67	87004 544 1278 1647 15.2 17 19 0.25719840018917 3.8931739079925 41.894711164256 115.2398271514
+66	87548 572 1277 1647 15.1 17 20 1578.0861504339 1579.3959617447 31570.79160438 49835747.581502
+65	88120 575 1277 1647 15.1 17 20 2412.302393524 2415.8694684898 48292.692407373 116609232.62319
+0	88695 4216 79 1644 3.627450041126 16.750657341569 165 1 165 13695 1511015
+3	92911 4216 79 1644 3.627450041126 16.750657341569 165 1 165 13695 1511015

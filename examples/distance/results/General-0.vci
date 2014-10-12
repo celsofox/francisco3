@@ -1,0 +1,597 @@
+file 1870710 1412996685                                         
+version 2
+run General-0-20141011-05:04:01-5258
+attr configname General
+attr datetime 20141011-05:04:01
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network org.car2x.veins.nodes.FranciscoScenario
+attr processid 5258
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+vector 10  FranciscoScenario.node[0].veinsmobility  posx  ETV
+vector 11  FranciscoScenario.node[0].veinsmobility  posy  ETV
+vector 12  FranciscoScenario.node[0].veinsmobility  speed  ETV
+vector 13  FranciscoScenario.node[0].veinsmobility  acceleration  ETV
+vector 14  FranciscoScenario.node[0].veinsmobility  co2emission  ETV
+vector 21  FranciscoScenario.node[1].veinsmobility  posx  ETV
+vector 22  FranciscoScenario.node[1].veinsmobility  posy  ETV
+vector 23  FranciscoScenario.node[1].veinsmobility  speed  ETV
+vector 24  FranciscoScenario.node[1].veinsmobility  acceleration  ETV
+vector 25  FranciscoScenario.node[1].veinsmobility  co2emission  ETV
+vector 32  FranciscoScenario.node[2].veinsmobility  posx  ETV
+vector 33  FranciscoScenario.node[2].veinsmobility  posy  ETV
+vector 34  FranciscoScenario.node[2].veinsmobility  speed  ETV
+vector 35  FranciscoScenario.node[2].veinsmobility  acceleration  ETV
+vector 36  FranciscoScenario.node[2].veinsmobility  co2emission  ETV
+vector 43  FranciscoScenario.node[3].veinsmobility  posx  ETV
+vector 44  FranciscoScenario.node[3].veinsmobility  posy  ETV
+vector 45  FranciscoScenario.node[3].veinsmobility  speed  ETV
+vector 46  FranciscoScenario.node[3].veinsmobility  acceleration  ETV
+vector 47  FranciscoScenario.node[3].veinsmobility  co2emission  ETV
+vector 54  FranciscoScenario.node[4].veinsmobility  posx  ETV
+vector 55  FranciscoScenario.node[4].veinsmobility  posy  ETV
+vector 56  FranciscoScenario.node[4].veinsmobility  speed  ETV
+vector 57  FranciscoScenario.node[4].veinsmobility  acceleration  ETV
+vector 58  FranciscoScenario.node[4].veinsmobility  co2emission  ETV
+vector 65  FranciscoScenario.node[5].veinsmobility  posx  ETV
+vector 66  FranciscoScenario.node[5].veinsmobility  posy  ETV
+vector 67  FranciscoScenario.node[5].veinsmobility  speed  ETV
+vector 68  FranciscoScenario.node[5].veinsmobility  acceleration  ETV
+vector 69  FranciscoScenario.node[5].veinsmobility  co2emission  ETV
+vector 76  FranciscoScenario.node[6].veinsmobility  posx  ETV
+vector 77  FranciscoScenario.node[6].veinsmobility  posy  ETV
+vector 78  FranciscoScenario.node[6].veinsmobility  speed  ETV
+vector 79  FranciscoScenario.node[6].veinsmobility  acceleration  ETV
+vector 80  FranciscoScenario.node[6].veinsmobility  co2emission  ETV
+vector 87  FranciscoScenario.node[7].veinsmobility  posx  ETV
+vector 88  FranciscoScenario.node[7].veinsmobility  posy  ETV
+vector 89  FranciscoScenario.node[7].veinsmobility  speed  ETV
+vector 90  FranciscoScenario.node[7].veinsmobility  acceleration  ETV
+vector 91  FranciscoScenario.node[7].veinsmobility  co2emission  ETV
+vector 98  FranciscoScenario.node[8].veinsmobility  posx  ETV
+vector 99  FranciscoScenario.node[8].veinsmobility  posy  ETV
+vector 100  FranciscoScenario.node[8].veinsmobility  speed  ETV
+vector 101  FranciscoScenario.node[8].veinsmobility  acceleration  ETV
+vector 102  FranciscoScenario.node[8].veinsmobility  co2emission  ETV
+vector 109  FranciscoScenario.node[9].veinsmobility  posx  ETV
+vector 110  FranciscoScenario.node[9].veinsmobility  posy  ETV
+vector 111  FranciscoScenario.node[9].veinsmobility  speed  ETV
+vector 112  FranciscoScenario.node[9].veinsmobility  acceleration  ETV
+vector 113  FranciscoScenario.node[9].veinsmobility  co2emission  ETV
+vector 120  FranciscoScenario.node[10].veinsmobility  posx  ETV
+vector 121  FranciscoScenario.node[10].veinsmobility  posy  ETV
+vector 122  FranciscoScenario.node[10].veinsmobility  speed  ETV
+vector 123  FranciscoScenario.node[10].veinsmobility  acceleration  ETV
+vector 124  FranciscoScenario.node[10].veinsmobility  co2emission  ETV
+vector 131  FranciscoScenario.node[11].veinsmobility  posx  ETV
+vector 132  FranciscoScenario.node[11].veinsmobility  posy  ETV
+vector 133  FranciscoScenario.node[11].veinsmobility  speed  ETV
+vector 134  FranciscoScenario.node[11].veinsmobility  acceleration  ETV
+vector 135  FranciscoScenario.node[11].veinsmobility  co2emission  ETV
+vector 142  FranciscoScenario.node[12].veinsmobility  posx  ETV
+vector 143  FranciscoScenario.node[12].veinsmobility  posy  ETV
+vector 144  FranciscoScenario.node[12].veinsmobility  speed  ETV
+vector 145  FranciscoScenario.node[12].veinsmobility  acceleration  ETV
+vector 146  FranciscoScenario.node[12].veinsmobility  co2emission  ETV
+vector 153  FranciscoScenario.node[13].veinsmobility  posx  ETV
+vector 154  FranciscoScenario.node[13].veinsmobility  posy  ETV
+vector 155  FranciscoScenario.node[13].veinsmobility  speed  ETV
+vector 156  FranciscoScenario.node[13].veinsmobility  acceleration  ETV
+vector 157  FranciscoScenario.node[13].veinsmobility  co2emission  ETV
+vector 164  FranciscoScenario.node[14].veinsmobility  posx  ETV
+vector 165  FranciscoScenario.node[14].veinsmobility  posy  ETV
+vector 166  FranciscoScenario.node[14].veinsmobility  speed  ETV
+vector 167  FranciscoScenario.node[14].veinsmobility  acceleration  ETV
+vector 168  FranciscoScenario.node[14].veinsmobility  co2emission  ETV
+vector 175  FranciscoScenario.node[15].veinsmobility  posx  ETV
+vector 176  FranciscoScenario.node[15].veinsmobility  posy  ETV
+vector 177  FranciscoScenario.node[15].veinsmobility  speed  ETV
+vector 178  FranciscoScenario.node[15].veinsmobility  acceleration  ETV
+vector 179  FranciscoScenario.node[15].veinsmobility  co2emission  ETV
+vector 186  FranciscoScenario.node[16].veinsmobility  posx  ETV
+vector 187  FranciscoScenario.node[16].veinsmobility  posy  ETV
+vector 188  FranciscoScenario.node[16].veinsmobility  speed  ETV
+vector 189  FranciscoScenario.node[16].veinsmobility  acceleration  ETV
+vector 190  FranciscoScenario.node[16].veinsmobility  co2emission  ETV
+vector 197  FranciscoScenario.node[17].veinsmobility  posx  ETV
+vector 198  FranciscoScenario.node[17].veinsmobility  posy  ETV
+vector 199  FranciscoScenario.node[17].veinsmobility  speed  ETV
+vector 200  FranciscoScenario.node[17].veinsmobility  acceleration  ETV
+vector 201  FranciscoScenario.node[17].veinsmobility  co2emission  ETV
+vector 208  FranciscoScenario.node[18].veinsmobility  posx  ETV
+vector 209  FranciscoScenario.node[18].veinsmobility  posy  ETV
+vector 210  FranciscoScenario.node[18].veinsmobility  speed  ETV
+vector 211  FranciscoScenario.node[18].veinsmobility  acceleration  ETV
+vector 212  FranciscoScenario.node[18].veinsmobility  co2emission  ETV
+vector 219  FranciscoScenario.node[19].veinsmobility  posx  ETV
+vector 220  FranciscoScenario.node[19].veinsmobility  posy  ETV
+vector 221  FranciscoScenario.node[19].veinsmobility  speed  ETV
+vector 222  FranciscoScenario.node[19].veinsmobility  acceleration  ETV
+vector 223  FranciscoScenario.node[19].veinsmobility  co2emission  ETV
+vector 230  FranciscoScenario.node[20].veinsmobility  posx  ETV
+vector 231  FranciscoScenario.node[20].veinsmobility  posy  ETV
+vector 232  FranciscoScenario.node[20].veinsmobility  speed  ETV
+vector 233  FranciscoScenario.node[20].veinsmobility  acceleration  ETV
+vector 234  FranciscoScenario.node[20].veinsmobility  co2emission  ETV
+vector 241  FranciscoScenario.node[21].veinsmobility  posx  ETV
+vector 242  FranciscoScenario.node[21].veinsmobility  posy  ETV
+vector 243  FranciscoScenario.node[21].veinsmobility  speed  ETV
+vector 244  FranciscoScenario.node[21].veinsmobility  acceleration  ETV
+vector 245  FranciscoScenario.node[21].veinsmobility  co2emission  ETV
+vector 252  FranciscoScenario.node[22].veinsmobility  posx  ETV
+vector 253  FranciscoScenario.node[22].veinsmobility  posy  ETV
+vector 254  FranciscoScenario.node[22].veinsmobility  speed  ETV
+vector 255  FranciscoScenario.node[22].veinsmobility  acceleration  ETV
+vector 256  FranciscoScenario.node[22].veinsmobility  co2emission  ETV
+vector 263  FranciscoScenario.node[23].veinsmobility  posx  ETV
+vector 264  FranciscoScenario.node[23].veinsmobility  posy  ETV
+vector 265  FranciscoScenario.node[23].veinsmobility  speed  ETV
+vector 266  FranciscoScenario.node[23].veinsmobility  acceleration  ETV
+vector 267  FranciscoScenario.node[23].veinsmobility  co2emission  ETV
+vector 274  FranciscoScenario.node[24].veinsmobility  posx  ETV
+vector 275  FranciscoScenario.node[24].veinsmobility  posy  ETV
+vector 276  FranciscoScenario.node[24].veinsmobility  speed  ETV
+vector 277  FranciscoScenario.node[24].veinsmobility  acceleration  ETV
+vector 278  FranciscoScenario.node[24].veinsmobility  co2emission  ETV
+vector 285  FranciscoScenario.node[25].veinsmobility  posx  ETV
+vector 286  FranciscoScenario.node[25].veinsmobility  posy  ETV
+vector 287  FranciscoScenario.node[25].veinsmobility  speed  ETV
+vector 288  FranciscoScenario.node[25].veinsmobility  acceleration  ETV
+vector 289  FranciscoScenario.node[25].veinsmobility  co2emission  ETV
+vector 296  FranciscoScenario.node[26].veinsmobility  posx  ETV
+vector 297  FranciscoScenario.node[26].veinsmobility  posy  ETV
+vector 298  FranciscoScenario.node[26].veinsmobility  speed  ETV
+vector 299  FranciscoScenario.node[26].veinsmobility  acceleration  ETV
+vector 300  FranciscoScenario.node[26].veinsmobility  co2emission  ETV
+vector 307  FranciscoScenario.node[27].veinsmobility  posx  ETV
+vector 308  FranciscoScenario.node[27].veinsmobility  posy  ETV
+vector 309  FranciscoScenario.node[27].veinsmobility  speed  ETV
+vector 310  FranciscoScenario.node[27].veinsmobility  acceleration  ETV
+vector 311  FranciscoScenario.node[27].veinsmobility  co2emission  ETV
+vector 318  FranciscoScenario.node[28].veinsmobility  posx  ETV
+vector 319  FranciscoScenario.node[28].veinsmobility  posy  ETV
+vector 320  FranciscoScenario.node[28].veinsmobility  speed  ETV
+vector 321  FranciscoScenario.node[28].veinsmobility  acceleration  ETV
+vector 322  FranciscoScenario.node[28].veinsmobility  co2emission  ETV
+vector 329  FranciscoScenario.node[29].veinsmobility  posx  ETV
+vector 330  FranciscoScenario.node[29].veinsmobility  posy  ETV
+vector 331  FranciscoScenario.node[29].veinsmobility  speed  ETV
+vector 332  FranciscoScenario.node[29].veinsmobility  acceleration  ETV
+vector 333  FranciscoScenario.node[29].veinsmobility  co2emission  ETV
+vector 15  FranciscoScenario.node[1].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 17  FranciscoScenario.node[1].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 2  FranciscoScenario.stats  allWarningsReceivedSignal:vector  ETV
+attr description  "All Warnings Received"
+vector 3  FranciscoScenario.stats  allMessagesReceivedSignal:vector  ETV
+attr description  "All Messages Received"
+vector 1  FranciscoScenario.stats  allNewWarningsReceivedSignal:vector  ETV
+attr description  "All New Warnings Received"
+vector 18  FranciscoScenario.node[1].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 26  FranciscoScenario.node[2].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 28  FranciscoScenario.node[2].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 29  FranciscoScenario.node[2].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 37  FranciscoScenario.node[3].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 39  FranciscoScenario.node[3].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 40  FranciscoScenario.node[3].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 48  FranciscoScenario.node[4].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 50  FranciscoScenario.node[4].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 51  FranciscoScenario.node[4].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 59  FranciscoScenario.node[5].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 61  FranciscoScenario.node[5].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 62  FranciscoScenario.node[5].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 70  FranciscoScenario.node[6].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 72  FranciscoScenario.node[6].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 73  FranciscoScenario.node[6].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 81  FranciscoScenario.node[7].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 83  FranciscoScenario.node[7].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 84  FranciscoScenario.node[7].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 92  FranciscoScenario.node[8].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 94  FranciscoScenario.node[8].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 95  FranciscoScenario.node[8].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 103  FranciscoScenario.node[9].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 105  FranciscoScenario.node[9].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 106  FranciscoScenario.node[9].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 114  FranciscoScenario.node[10].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 116  FranciscoScenario.node[10].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 117  FranciscoScenario.node[10].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 125  FranciscoScenario.node[11].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 127  FranciscoScenario.node[11].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 128  FranciscoScenario.node[11].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 136  FranciscoScenario.node[12].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 138  FranciscoScenario.node[12].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 139  FranciscoScenario.node[12].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 4  FranciscoScenario.node[0].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 6  FranciscoScenario.node[0].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 7  FranciscoScenario.node[0].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 147  FranciscoScenario.node[13].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 149  FranciscoScenario.node[13].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 150  FranciscoScenario.node[13].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 158  FranciscoScenario.node[14].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 160  FranciscoScenario.node[14].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 161  FranciscoScenario.node[14].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 169  FranciscoScenario.node[15].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 171  FranciscoScenario.node[15].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 172  FranciscoScenario.node[15].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 180  FranciscoScenario.node[16].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 182  FranciscoScenario.node[16].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 183  FranciscoScenario.node[16].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 191  FranciscoScenario.node[17].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 193  FranciscoScenario.node[17].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 194  FranciscoScenario.node[17].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 202  FranciscoScenario.node[18].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 204  FranciscoScenario.node[18].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 205  FranciscoScenario.node[18].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 213  FranciscoScenario.node[19].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 215  FranciscoScenario.node[19].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 216  FranciscoScenario.node[19].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 224  FranciscoScenario.node[20].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 226  FranciscoScenario.node[20].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 227  FranciscoScenario.node[20].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 235  FranciscoScenario.node[21].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 237  FranciscoScenario.node[21].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 238  FranciscoScenario.node[21].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 246  FranciscoScenario.node[22].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 248  FranciscoScenario.node[22].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 249  FranciscoScenario.node[22].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 312  FranciscoScenario.node[28].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 314  FranciscoScenario.node[28].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 315  FranciscoScenario.node[28].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 323  FranciscoScenario.node[29].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 325  FranciscoScenario.node[29].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 326  FranciscoScenario.node[29].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 257  FranciscoScenario.node[23].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 259  FranciscoScenario.node[23].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 260  FranciscoScenario.node[23].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 268  FranciscoScenario.node[24].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 270  FranciscoScenario.node[24].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 271  FranciscoScenario.node[24].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 279  FranciscoScenario.node[25].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 281  FranciscoScenario.node[25].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 282  FranciscoScenario.node[25].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 290  FranciscoScenario.node[26].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 292  FranciscoScenario.node[26].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 293  FranciscoScenario.node[26].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+vector 301  FranciscoScenario.node[27].appl  warningReceivedSignal:vector  ETV
+attr description  "Warning Message Received"
+vector 303  FranciscoScenario.node[27].appl  messageReceivedSignal:vector  ETV
+attr description  "Message Received"
+vector 304  FranciscoScenario.node[27].appl  newWarningReceivedSignal:vector  ETV
+attr description  "New Warning Message Received"
+7	21805 25 1046 1046 87.803506067754 87.803506067754 1 1 1 1 1
+6	21830 248 1046 2957 87.803506067754 87.805320215356 10 1 1 10 10
+4	22078 248 1046 2957 87.803506067754 87.805320215356 10 1 1 10 10
+14	22326 20563 4 880 0.3 87.8 876 0.973 9.82520242459 2341.1755719666 9844.7124427997
+13	42889 22997 4 880 0.3 87.8 876 -4.5 2.6 -2.5286542447005 2125.4513313097
+12	65886 22721 3 880 0.2 87.8 877 0 13.999359213558 9234.9468532494 118874.93478867
+11	88607 24103 2 880 0.1 87.8 878 1578.0861504339 2120.9582023723 1667186.9179832 3200272344.7527
+10	112710 24104 2 880 0.1 87.8 878 2159.6759992043 2450.6572874393 2066226.7478233 4871534143.5847
+18	136814 25 930 930 87.803093016697 87.803093016697 1 1 1 1 1
+17	136839 284 930 2951 87.803093016697 87.805320198657 11 1 1 11 11
+15	137123 284 930 2951 87.803093016697 87.805320198657 11 1 1 11 11
+25	137407 20246 34 880 3.3 87.8 846 0.973 10.170358483607 2271.5253559078 9559.7649380995
+24	157653 24106 34 880 3.3 87.8 846 -4.0142019116481 2.6 -2.4600052302109 1786.9495595234
+23	181759 23406 33 880 3.2 87.8 847 0.0055732425836783 13.999952244477 9184.8854228281 116430.02724165
+22	205165 23338 32 880 3.1 87.8 848 1578.0861504339 2120.9517534953 1602289.6775736 3061092791.976
+21	228503 23345 32 880 3.1 87.8 848 2163.9905985236 2450.6343626493 2003188.3853551 4739443826.9955
+117	251848 26 966 966 87.803093894426 87.803093894426 1 1 1 1 1
+116	251874 160 966 2094 87.803093894426 87.804730508077 6 1 1 6 6
+114	252034 160 966 2094 87.803093894426 87.804730508077 6 1 1 6 6
+124	252194 14719 304 880 30.3 87.8 576 0.973 10.546108580738 1753.9177145607 8208.2517868462
+123	266913 16925 304 880 30.3 87.8 576 -3.7182945791565 2.6 136.91499958445 1338.5167407651
+122	283838 16571 303 880 30.2 87.8 577 0.24884161073063 13.999751117721 6496.441876856 80565.876528137
+121	300409 16594 302 880 30.1 87.8 578 1578.0861504339 2113.2001868337 1031831.0129802 1856406477.4035
+120	317003 16574 302 880 30.1 87.8 578 2333.8377907473 2450.6251043571 1394251.9869472 3364076639.3917
+128	333577 26 970 970 87.803093932522 87.803093932522 1 1 1 1 1
+127	333603 161 970 2086 87.803093932522 87.804730379496 6 1 1 6 6
+125	333764 161 970 2086 87.803093932522 87.804730379496 6 1 1 6 6
+135	333925 13831 334 880 33.3 87.8 546 0.973 10.333872249218 1704.5710590561 8048.3889547858
+134	347756 15972 334 880 33.3 87.8 546 -3.740928080686 2.6 137.2119298607 1325.1031973584
+133	363728 15701 333 880 33.2 87.8 547 0.25701562327403 13.999894360469 6085.3594538035 74777.246772619
+132	379429 15733 332 880 33.1 87.8 548 1578.0861504339 2075.4034896055 969135.60739807 1725311245.6001
+131	395162 15737 332 880 33.1 87.8 548 2333.8307360749 2450.6390405594 1321134.7159124 3185875741.468
+139	410899 26 974 974 87.803093960999 87.803093960999 1 1 1 1 1
+138	410925 107 974 1499 87.803093960999 87.804123935285 4 1 1 4 4
+136	411032 107 974 1499 87.803093960999 87.804123935285 4 1 1 4 4
+146	411139 13187 364 880 36.3 87.8 516 0.973 10.37755868605 1622.1736810703 7770.2503611939
+145	424326 15093 364 880 36.3 87.8 516 -3.8790363866729 2.6 136.71351383477 1329.5437965091
+144	439419 14826 363 880 36.2 87.8 517 0.2536784628951 13.999813819695 5634.2074460375 68418.636477003
+143	454245 14858 362 880 36.1 87.8 518 1578.0861504339 2030.4189697523 906568.93437751 1595245712.7366
+142	469103 14871 362 880 36.1 87.8 518 2333.8415437603 2450.6179950734 1247918.7031904 3007185668.1798
+150	483974 27 1162 1162 87.803712106907 87.803712106907 1 1 1 1 1
+149	484001 131 1162 2712 87.803712106907 87.805129033 5 1 1 5 5
+147	484132 131 1162 2712 87.803712106907 87.805129033 5 1 1 5 5
+157	484263 12377 394 880 39.3 87.8 486 0.973 9.9790424377356 1541.6607502928 7512.8179408303
+156	496640 14188 394 880 39.3 87.8 486 -4.0445987554966 2.6 136.68036087733 1304.314869053
+155	510828 13968 393 880 39.2 87.8 487 0.2563861307737 13.999745033977 5223.1977338774 62670.06288692
+154	524796 14004 392 880 39.1 87.8 488 1578.0861504339 1989.4490579451 846429.66148524 1474614624.383
+153	538800 13997 392 880 39.1 87.8 488 2333.8329266364 2450.6492582313 1174552.3044567 2827770450.3893
+161	552797 27 1170 1170 87.803712241367 87.803712241367 1 1 1 1 1
+160	552824 134 1170 2704 87.803712241367 87.805128898702 5 1 1 5 5
+158	552958 134 1170 2704 87.803712241367 87.805128898702 5 1 1 5 5
+168	553092 11624 424 880 42.3 87.8 456 0.973 10.534724065816 1469.3045132807 7304.1110994184
+167	564716 13282 424 880 42.3 87.8 456 -3.8312677695771 2.6 136.2992579875 1296.4040008948
+166	577998 13117 423 880 42.2 87.8 457 0.25037681508181 13.99935512166 4820.0980156835 57001.272603066
+165	591115 13144 422 880 42.1 87.8 458 1578.0861504339 1949.2719617542 787736.77131172 1359636610.6629
+164	604259 13147 422 880 42.1 87.8 458 2333.8362671294 2450.6597882462 1101219.1793803 2648502892.0233
+172	617406 27 1182 1182 87.803712377126 87.803712377126 1 1 1 1 1
+171	617433 108 1182 2102 87.803712377126 87.804730636328 4 1 1 4 4
+169	617541 108 1182 2102 87.803712377126 87.804730636328 4 1 1 4 4
+179	617649 10849 454 880 45.3 87.8 426 0.973 10.109833579188 1396.4587918934 7011.0574352256
+178	628498 12377 454 880 45.3 87.8 426 -3.7639299421297 2.6 137.03462592697 1286.2176281498
+177	640875 12259 453 880 45.2 87.8 427 0.24741334290849 13.998877243379 4411.2741318554 51435.697349658
+176	653134 12287 452 880 45.1 87.8 428 1578.0861504339 1908.501629821 729957.38213912 1248337371.8464
+175	665421 12289 452 880 45.1 87.8 428 2333.8439057248 2449.2101446451 1027665.6745685 2468176394.2914
+183	677710 27 1194 1194 87.803712514128 87.803712514128 1 1 1 1 1
+182	677737 160 1194 2976 87.803712514128 87.805320900589 6 1 1 6 6
+180	677897 160 1194 2976 87.803712514128 87.805320900589 6 1 1 6 6
+190	678057 10073 484 880 48.3 87.8 396 0.973 10.081962655 1344.7943311177 6871.6030664376
+189	688130 11472 484 880 48.3 87.8 396 -4.0203230410952 2.6 137.32288291865 1286.1492314009
+188	699602 11401 483 880 48.2 87.8 397 0.25467185314931 13.998610752821 3997.9706092748 45755.628885821
+187	711003 11416 482 880 48.1 87.8 398 1578.0861504339 1867.2762305075 673236.53555685 1141146461.3247
+186	722419 11414 482 880 48.1 87.8 398 2333.8324139827 2446.2123637123 954354.39757285 2289008413.3059
+194	733833 27 1202 1202 87.803712657196 87.803712657196 1 1 1 1 1
+193	733860 135 1202 2716 87.803712657196 87.805129044189 5 1 1 5 5
+191	733995 135 1202 2716 87.803712657196 87.805129044189 5 1 1 5 5
+201	734130 9314 514 880 51.3 87.8 366 0.973 10.689267777763 1262.763119018 6635.840471107
+200	743444 10561 514 880 51.3 87.8 366 -4.156493000676 2.6 136.61091489871 1285.5043000536
+199	754005 10535 513 880 51.2 87.8 367 0.25575374198146 13.999465401182 3567.4746772462 39769.179775101
+198	764540 10556 512 880 51.1 87.8 368 1578.0861504339 1824.3466977607 617621.46952496 1038095312.6456
+197	775096 10571 512 880 51.1 87.8 368 2333.8284822215 2443.0906635743 880904.42414894 2109191123.0043
+205	785667 26 1210 1210 87.80371279996 87.80371279996 1 1 1 1 1
+204	785693 133 1210 2723 87.80371279996 87.805129187299 5 1 1 5 5
+202	785826 133 1210 2723 87.80371279996 87.805129187299 5 1 1 5 5
+212	785959 8513 544 880 54.3 87.8 336 0.973 10.077537204732 1197.5702267291 6495.4546094439
+211	794472 9644 544 880 54.3 87.8 336 -3.9367937148457 2.6 136.19059916208 1287.8324604236
+210	804116 9675 543 880 54.2 87.8 337 0.25452556009637 13.984178454417 3138.4424949287 33717.946756069
+209	813791 9693 542 880 54.1 87.8 338 1578.0861504339 1781.560477077 563466.44060026 940327793.15377
+208	823484 9694 542 880 54.1 87.8 338 2333.8395586326 2439.9793846373 807619.02723165 1930169951.8626
+216	833178 27 1234 1234 87.803712939267 87.803712939267 1 1 1 1 1
+215	833205 108 1234 2730 87.803712939267 87.805129326985 4 1 1 4 4
+213	833313 108 1234 2730 87.803712939267 87.805129326985 4 1 1 4 4
+223	833421 7735 574 880 57.3 87.8 306 0.973 10.02915900071 1124.9006322411 6207.3506694339
+222	841156 8730 574 880 57.3 87.8 306 -3.865916332736 2.6 136.9177225696 1242.3427461224
+221	849886 8813 573 880 57.2 87.8 307 0.25546776798018 13.94724002494 2719.4448676143 27789.876672834
+220	858699 8832 572 880 57.1 87.8 308 1578.0861504339 1739.8553415434 510735.99546914 847616073.34046
+219	867531 8835 572 880 57.1 87.8 308 2333.8318163478 2436.0835226042 734527.93500671 1752085271.1139
+29	876366 25 934 934 87.803093033877 87.803093033877 1 1 1 1 1
+28	876391 153 934 2395 87.803093033877 87.80492318148 6 1 1 6 6
+26	876544 153 934 2395 87.803093033877 87.80492318148 6 1 1 6 6
+36	876697 19497 64 880 6.3 87.8 816 0.973 10.552118324411 2214.2382368954 9434.1652961482
+35	896194 23274 64 880 6.3 87.8 816 -3.7379034075544 2.6 -0.92766266163839 1718.806443851
+34	919468 22550 63 880 6.2 87.8 817 0.16449876053454 13.999783729354 9133.3823643409 115158.90108647
+33	942018 22575 62 880 6.1 87.8 818 1578.0861504339 2120.9480926991 1538808.2801884 2927129403.786
+32	964593 22577 62 880 6.1 87.8 818 2168.4426476721 2450.6296321126 1939165.1360265 4602999677.2462
+227	987170 27 1238 1238 87.803713052092 87.803713052092 1 1 1 1 1
+226	987197 160 1238 2734 87.803713052092 87.805129440409 6 1 1 6 6
+224	987357 160 1238 2734 87.803713052092 87.805129440409 6 1 1 6 6
+234	987517 6865 604 880 60.3 87.8 276 0.973 10.398679342159 917.24276872942 4739.6102759922
+233	994382 7879 604 880 60.3 87.8 276 -3.7423902453556 2.6 79.159219079443 1137.5892256748
+232	1002261 7951 603 880 60.2 87.8 277 0.25608324048971 13.884049628288 2378.597331654 23872.544533891
+231	1010212 7982 602 880 60.1 87.8 278 1578.0861504339 1706.7320262296 459025.61611521 758487638.67567
+230	1018194 7983 602 880 60.1 87.8 278 2333.8334059804 2431.0499730781 661531.47397786 1574468480.4123
+238	1026177 27 1242 1242 87.803713077757 87.803713077757 1 1 1 1 1
+237	1026204 135 1242 2741 87.803713077757 87.805129468688 5 1 1 5 5
+235	1026339 135 1242 2741 87.803713077757 87.805129468688 5 1 1 5 5
+245	1026474 6099 634 880 63.3 87.8 246 0.973 9.8341060037135 809.8158267134 4223.5132902462
+244	1032573 7117 634 880 63.3 87.8 246 -3.5155816175594 2.6 52.890590426851 978.83568719579
+243	1039690 7102 633 880 63.2 87.8 247 0.24927679822454 13.884443930855 2206.8597555069 22788.63958166
+242	1046792 7122 632 880 63.1 87.8 248 1578.0861504339 1700.4652522113 407983.06556764 671635714.34208
+241	1053914 7123 632 880 63.1 87.8 248 2333.8431452469 2417.8695219024 588599.65164527 1397184431.8753
+249	1061037 27 1246 1246 87.803713093499 87.803713093499 1 1 1 1 1
+248	1061064 162 1246 3011 87.803713093499 87.805321491497 6 1 1 6 6
+246	1061226 162 1246 3011 87.803713093499 87.805321491497 6 1 1 6 6
+256	1061388 5491 664 880 66.3 87.8 216 0.973 10.205396713253 769.56547399931 4122.4407652035
+255	1066879 6213 664 880 66.3 87.8 216 -3.9239304655516 2.6 102.95653198725 833.96889183904
+254	1073092 6228 663 880 66.2 87.8 217 0.24913902792754 13.884479003639 1970.6700280966 20875.598098608
+253	1079320 6264 662 880 66.1 87.8 218 1578.0861504339 1698.1949065374 357042.72528494 585134811.62316
+252	1085584 6240 662 880 66.1 87.8 218 2333.8332042031 2415.8694684898 516428.51819366 1223557337.0567
+260	1091824 26 1703 1703 87.80433201452 87.80433201452 1 1 1 1 1
+259	1091850 52 1703 2456 87.80433201452 87.80492350671 2 1 1 2 2
+257	1091902 52 1703 2456 87.80433201452 87.80492350671 2 1 1 2 2
+267	1091954 4826 694 880 69.3 87.8 186 0.973 10.004247503934 717.1175604823 3942.7132587646
+266	1096780 5316 694 880 69.3 87.8 186 -3.8512273737074 2.6 132.05297201612 763.63083553903
+265	1102096 5376 693 880 69.2 87.8 187 0.25980012627481 13.889809028909 1593.1824631104 15974.48626474
+264	1107472 5394 692 880 69.1 87.8 188 1578.0861504339 1690.6325521655 306179.11534835 498896828.64014
+263	1112866 5403 692 880 69.1 87.8 188 2333.8310509371 2415.8694684898 445163.38162446 1054261522.7265
+271	1118269 27 1707 1707 87.804332120194 87.804332120194 1 1 1 1 1
+270	1118296 54 1707 2462 87.804332120194 87.804923612384 2 1 1 2 2
+268	1118350 54 1707 2462 87.804332120194 87.804923612384 2 1 1 2 2
+278	1118404 3951 724 880 72.3 87.8 156 0.973 8.9302724295602 510.60761186304 2463.0801308978
+277	1122355 4454 724 880 72.3 87.8 156 -3.7068640298755 2.6 71.027551279245 639.73409420669
+276	1126809 4511 723 880 72.2 87.8 157 0.25438760111481 13.858842004093 1272.070884008 12495.616939199
+275	1131320 4539 722 880 72.1 87.8 158 1578.0861504339 1669.4494583635 255788.97676222 414257149.26903
+274	1135859 4538 722 880 72.1 87.8 158 2333.8371172188 2415.8694684898 374815.78861461 889301006.12851
+282	1140397 27 1715 1715 87.804332146405 87.804332146405 1 1 1 1 1
+281	1140424 54 1715 2471 87.804332146405 87.804923638595 2 1 1 2 2
+279	1140478 54 1715 2471 87.804332146405 87.804923638595 2 1 1 2 2
+289	1140532 3180 755 880 75.3 87.8 126 0.973 10.265796020129 415.6656921865 2180.4316328986
+288	1143712 3706 755 880 75.3 87.8 126 -3.3871576132728 2.5965876849834 58.932255562823 476.92641153606
+287	1147418 3648 754 880 75.2 87.8 127 0.24943925448973 13.885059415654 1118.4021840961 11703.488245227
+286	1151066 3675 753 880 75.1 87.8 128 1578.0861504339 1654.7972666584 205992.84282445 331597227.82965
+285	1154741 3666 753 880 75.1 87.8 128 2336.5607369872 2415.8694684898 304725.48234693 725542438.16302
+293	1158407 27 1719 1719 87.804332152842 87.804332152842 1 1 1 1 1
+292	1158434 54 1719 2475 87.804332152842 87.804923645032 2 1 1 2 2
+290	1158488 54 1719 2475 87.804332152842 87.804923645032 2 1 1 2 2
+300	1158542 2579 785 880 78.3 87.8 96 0.973 9.0402106744091 384.63616452104 2109.1687027577
+299	1161121 2799 785 880 78.3 87.8 96 -2.9669566122271 2.5993617438711 110.03195835195 340.73708681397
+298	1163920 2787 784 880 78.2 87.8 97 0.25628435360407 13.875851093554 865.95736931491 9573.197992806
+297	1166707 2814 783 880 78.1 87.8 98 1578.0861504339 1635.6639920622 156563.47894658 250157472.81312
+296	1169521 2813 783 880 78.1 87.8 98 2353.738529563 2415.8694684898 234455.52140469 560949322.42401
+304	1172334 26 1723 1723 87.80433218514 87.80433218514 1 1 1 1 1
+303	1172360 107 1723 3047 87.80433218514 87.805321792004 4 1 1 4 4
+301	1172467 107 1723 3047 87.80433218514 87.805321792004 4 1 1 4 4
+311	1172574 1894 815 880 81.3 87.8 66 1.4341067338979 9.5941060920916 332.50240006221 1974.0631089906
+310	1174468 1896 815 880 81.3 87.8 66 1.3063933076337 2.5976958966581 135.07477297896 285.40684067031
+309	1176364 1929 814 880 81.2 87.8 67 0.25462861368805 13.762105911584 483.49315003905 4513.1391476702
+308	1178293 1956 813 880 81.1 87.8 68 1578.0861504339 1608.2707998175 107927.83686105 171306101.10126
+307	1180249 1955 813 880 81.1 87.8 68 2380.783858442 2415.8694684898 163412.86798531 392710138.24645
+315	1182204 27 1255 1255 87.803713464648 87.803713464648 1 1 1 1 1
+314	1182231 161 1255 3059 87.803713464648 87.805321856017 6 1 1 6 6
+312	1182392 161 1255 3059 87.803713464648 87.805321856017 6 1 1 6 6
+322	1182553 1028 845 880 84.3 87.8 36 1.452161847767 6.1514410817859 119.79632152769 454.02629684646
+321	1183581 1037 845 880 84.3 87.8 36 1.3557593308389 2.5962234467313 74.007204912959 157.23860962448
+320	1184618 1066 844 880 84.2 87.8 37 0.24807108780206 7.6487915790979 147.80644359431 755.88171823862
+319	1185684 1090 843 880 84.1 87.8 38 1578.0861504339 1584.8192548184 60038.26070857 94857838.965612
+318	1186774 1093 843 880 84.1 87.8 38 2403.9375946539 2415.8694684898 91636.869368472 220982544.37528
+326	1187867 27 1259 1259 87.803713485188 87.803713485188 1 1 1 1 1
+325	1187894 161 1259 3064 87.803713485188 87.805321874562 6 1 1 6 6
+323	1188055 161 1259 3064 87.803713485188 87.805321874562 6 1 1 6 6
+333	1188216 173 875 880 87.3 87.8 6 1.4170654017158 2.130062695407 10.688064642319 19.426669926117
+332	1188389 174 875 880 87.3 87.8 6 2.1739606504665 2.5800373276599 14.23433103509 33.877422583438
+331	1188563 207 874 880 87.2 87.8 7 0.25177783574676 1.6752109392557 6.7526534438791 8.0787602625768
+330	1188770 232 873 880 87.1 87.8 8 1578.0861504339 1578.2611562917 12625.1593329 19924331.051809
+329	1189002 232 873 880 87.1 87.8 8 2415.3928662427 2415.8694684898 19325.675420814 46685216.525171
+40	1189234 24 938 938 87.80309305779 87.80309305779 1 1 1 1 1
+39	1189258 284 938 2954 87.80309305779 87.805320205391 11 1 1 11 11
+37	1189542 284 938 2954 87.80309305779 87.805320205391 11 1 1 11 11
+47	1189826 18887 94 880 9.3 87.8 786 0.973 9.8679249907505 2170.3549374876 9349.3502691475
+46	1208713 22441 94 880 9.3 87.8 786 -3.9578835885903 2.6 16.962525031241 1682.8209411531
+45	1231154 21786 93 880 9.2 87.8 787 0.24904955297103 13.99972369859 9061.692624035 114320.6530353
+44	1252940 21805 92 880 9.1 87.8 788 1578.0861504339 2120.9359494802 1475657.7320742 2794420826.0401
+43	1274745 21804 92 880 9.1 87.8 788 2174.7740822344 2450.6093972528 1874335.7214679 4462927075.4155
+51	1296549 25 942 942 87.803093109713 87.803093109713 1 1 1 1 1
+50	1296574 259 942 2960 87.803093109713 87.805320257438 10 1 1 10 10
+48	1296833 259 942 2960 87.803093109713 87.805320257438 10 1 1 10 10
+58	1297092 18437 124 880 12.3 87.8 756 0.973 10.256056764387 2131.9170075472 9257.7713236257
+57	1315529 21624 124 880 12.3 87.8 756 -4.1278862157326 2.6 64.818917440934 1549.9783731084
+56	1337153 20973 123 880 12.2 87.8 757 0.25788759189239 13.999990419396 8904.4562319078 113112.31947897
+55	1358126 20989 122 880 12.1 87.8 758 1578.0861504339 2120.943782879 1413008.3717832 2663494816.7567
+54	1379115 20997 122 880 12.1 87.8 758 2189.7767936614 2450.6314540602 1808789.5647051 4319666413.077
+62	1400112 25 946 946 87.803093213944 87.803093213944 1 1 1 1 1
+61	1400137 233 946 2667 87.803093213944 87.805115361971 9 1 1 9 9
+59	1400370 233 946 2667 87.803093213944 87.805115361971 9 1 1 9 9
+69	1400603 17858 154 880 15.3 87.8 726 0.973 10.307311520576 2100.6580250665 9277.9752031774
+68	1418461 20749 154 880 15.3 87.8 726 -3.8198237868742 2.6 128.83244090325 1400.5816183897
+67	1439210 20144 153 880 15.2 87.8 727 0.25719840018917 13.999578557343 8589.6434985409 109704.46030491
+66	1459354 20180 152 880 15.1 87.8 728 1578.0861504339 2120.9294930743 1349535.6615623 2529317511.4935
+65	1479534 20151 152 880 15.1 87.8 728 2220.3857525425 2450.6150824666 1742862.1550682 4174818087.2531
+73	1499685 25 950 950 87.803093349766 87.803093349766 1 1 1 1 1
+72	1499710 179 950 2118 87.803093349766 87.804730897312 7 1 1 7 7
+70	1499889 179 950 2118 87.803093349766 87.804730897312 7 1 1 7 7
+80	1500068 16999 184 880 18.3 87.8 696 0.973 10.509928864728 2048.7004375956 9061.0953585271
+79	1517067 19854 184 880 18.3 87.8 696 -3.8602691469167 2.6 136.20135020763 1380.3187574268
+78	1536921 19299 183 880 18.2 87.8 697 0.25275420577498 13.999881321082 8172.0910913962 103893.68443195
+77	1556220 19344 182 880 18.1 87.8 698 1578.0861504339 2120.9308689013 1286039.369816 2394983989.8754
+76	1575564 19332 182 880 18.1 87.8 698 2261.9362429773 2450.6142702554 1675637.3100278 4024168741.1146
+84	1594896 25 954 954 87.803093492993 87.803093492993 1 1 1 1 1
+83	1594921 180 954 2110 87.803093492993 87.804730770743 7 1 1 7 7
+81	1595101 180 954 2110 87.803093492993 87.804730770743 7 1 1 7 7
+91	1595281 16318 214 880 21.3 87.8 666 0.973 10.353538883295 1976.0144152394 9013.6902127796
+90	1611599 18984 214 880 21.3 87.8 666 -3.6392734254279 2.6 137.22469229179 1399.7530750897
+89	1630583 18476 213 880 21.2 87.8 667 0.25468229677505 13.999416294557 7733.6129756557 97778.242897967
+88	1649059 18496 212 880 21.1 87.8 668 1578.0861504339 2120.9545816416 1221945.64794 2258295773.5461
+87	1667555 18500 212 880 21.1 87.8 668 2305.7694818503 2450.6477064677 1607275.3611738 3868402103.387
+95	1686055 25 958 958 87.803093621482 87.803093621482 1 1 1 1 1
+94	1686080 129 958 2106 87.803093621482 87.804730668627 5 1 1 5 5
+92	1686209 129 958 2106 87.803093621482 87.804730668627 5 1 1 5 5
+102	1686338 16221 244 880 24.3 87.8 636 0.973 9.8924483312789 1919.5226132551 8827.3540327142
+101	1702559 18740 244 880 24.3 87.8 636 -4.1197890467662 2.6 137.47504851989 1369.4581193036
+100	1721299 18293 243 880 24.2 87.8 637 0.25219490096346 13.999699752952 7343.8885093877 92331.195686772
+99	1739592 17673 242 880 24.1 87.8 638 1578.0861504339 2120.9545681579 1159288.4284588 2127050659.5577
+98	1757265 17673 242 880 24.1 87.8 638 2333.8371175624 2450.6555947021 1537376.5449217 3705519922.7224
+106	1774938 26 962 962 87.803093762679 87.803093762679 1 1 1 1 1
+105	1774964 161 962 2098 87.803093762679 87.804730578766 6 1 1 6 6
+103	1775125 161 962 2098 87.803093762679 87.804730578766 6 1 1 6 6
+113	1775286 15469 274 880 27.3 87.8 606 0.973 10.276785927173 1833.1016862857 8503.0253730696
+112	1790755 17824 274 880 27.3 87.8 606 -3.7987900435393 2.6 136.51393921056 1354.050681822
+111	1808579 17429 273 880 27.2 87.8 607 0.25302000097721 13.999598088698 6917.3955314253 86324.364174942
+110	1826008 17463 272 880 27.1 87.8 608 1578.0861504339 2120.9342900822 1095504.7183367 1991508025.5758
+109	1843471 17434 272 880 27.1 87.8 608 2333.8387018197 2450.6111197521 1466433.4616824 3537754066.4424
+1	1860905 755 930 1723 87.803093016697 87.80433218514 30 1 30 465 9455
+2	1861660 4525 930 3064 87.803093016697 87.805321874562 173 1 173 15051 1740899
+3	1866185 4525 930 3064 87.803093016697 87.805321874562 173 1 173 15051 1740899

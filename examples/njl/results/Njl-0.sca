@@ -1,0 +1,1061 @@
+version 2
+run Njl-0-20141011-23:23:51-4057
+attr configname Njl
+attr datetime 20141011-23:23:51
+attr experiment Njl
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvars2 $repetition=0
+attr measurement ""
+attr network org.car2x.veins.nodes.FranciscoScenario
+attr processid 4057
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar FranciscoScenario.node[0].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[0].appl 	messageReceivedSignal:count 	1106
+attr description  "Message Received"
+scalar FranciscoScenario.node[0].appl 	beaconReceivedSignal:count 	1105
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[0].appl 	warningReceivedSignal:count 	1
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[0].nic.phy80211p 	busyTime 	0.00071823691480766
+scalar FranciscoScenario.node[0].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	ReceivedBroadcasts 	1106
+scalar FranciscoScenario.node[0].nic.mac1609_4 	SentPackets 	112
+scalar FranciscoScenario.node[0].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	TimesIntoBackoff 	112
+scalar FranciscoScenario.node[0].nic.mac1609_4 	SlotsBackoff 	175
+scalar FranciscoScenario.node[0].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[0].nic.mac1609_4 	totalBusyTime 	0.087903998782
+scalar FranciscoScenario.node[0].veinsmobility 	startTime 	0.1
+scalar FranciscoScenario.node[0].veinsmobility 	totalTime 	110.9
+scalar FranciscoScenario.node[0].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[0].veinsmobility 	minSpeed 	0
+scalar FranciscoScenario.node[0].veinsmobility 	maxSpeed 	13.999359213558
+scalar FranciscoScenario.node[0].veinsmobility 	totalDistance 	948.72647414558
+scalar FranciscoScenario.node[0].veinsmobility 	totalCO2Emission 	267.71403858141
+scalar FranciscoScenario.node[1].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[1].appl 	messageReceivedSignal:count 	1176
+attr description  "Message Received"
+scalar FranciscoScenario.node[1].appl 	beaconReceivedSignal:count 	1174
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[1].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[1].nic.phy80211p 	busyTime 	0.00078533737059192
+scalar FranciscoScenario.node[1].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	ReceivedBroadcasts 	1176
+scalar FranciscoScenario.node[1].nic.mac1609_4 	SentPackets 	108
+scalar FranciscoScenario.node[1].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	TimesIntoBackoff 	108
+scalar FranciscoScenario.node[1].nic.mac1609_4 	SlotsBackoff 	162
+scalar FranciscoScenario.node[1].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[1].nic.mac1609_4 	totalBusyTime 	0.092651998716
+scalar FranciscoScenario.node[1].veinsmobility 	startTime 	3.1
+scalar FranciscoScenario.node[1].veinsmobility 	totalTime 	107.9
+scalar FranciscoScenario.node[1].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[1].veinsmobility 	minSpeed 	1.076655278166e-10
+scalar FranciscoScenario.node[1].veinsmobility 	maxSpeed 	13.999952244477
+scalar FranciscoScenario.node[1].veinsmobility 	totalDistance 	938.52879565061
+scalar FranciscoScenario.node[1].veinsmobility 	totalCO2Emission 	258.79038632184
+scalar FranciscoScenario.node[10].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[10].appl 	messageReceivedSignal:count 	1473
+attr description  "Message Received"
+scalar FranciscoScenario.node[10].appl 	beaconReceivedSignal:count 	1468
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[10].appl 	warningReceivedSignal:count 	5
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[10].nic.phy80211p 	busyTime 	0.001314185845402
+scalar FranciscoScenario.node[10].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	ReceivedBroadcasts 	1473
+scalar FranciscoScenario.node[10].nic.mac1609_4 	SentPackets 	81
+scalar FranciscoScenario.node[10].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	TimesIntoBackoff 	81
+scalar FranciscoScenario.node[10].nic.mac1609_4 	SlotsBackoff 	102
+scalar FranciscoScenario.node[10].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[10].nic.mac1609_4 	totalBusyTime 	0.112208998446
+scalar FranciscoScenario.node[10].veinsmobility 	startTime 	30.1
+scalar FranciscoScenario.node[10].veinsmobility 	totalTime 	80.9
+scalar FranciscoScenario.node[10].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[10].veinsmobility 	minSpeed 	0.14867287456583
+scalar FranciscoScenario.node[10].veinsmobility 	maxSpeed 	13.999751117721
+scalar FranciscoScenario.node[10].veinsmobility 	totalDistance 	873.48009424749
+scalar FranciscoScenario.node[10].veinsmobility 	totalCO2Emission 	216.33156185764
+scalar FranciscoScenario.node[11].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[11].appl 	messageReceivedSignal:count 	1462
+attr description  "Message Received"
+scalar FranciscoScenario.node[11].appl 	beaconReceivedSignal:count 	1458
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[11].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[11].nic.phy80211p 	busyTime 	0.0013539937014745
+scalar FranciscoScenario.node[11].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	ReceivedBroadcasts 	1462
+scalar FranciscoScenario.node[11].nic.mac1609_4 	SentPackets 	79
+scalar FranciscoScenario.node[11].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	TimesIntoBackoff 	79
+scalar FranciscoScenario.node[11].nic.mac1609_4 	SlotsBackoff 	114
+scalar FranciscoScenario.node[11].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[11].nic.mac1609_4 	totalBusyTime 	0.111270998459
+scalar FranciscoScenario.node[11].veinsmobility 	startTime 	33.1
+scalar FranciscoScenario.node[11].veinsmobility 	totalTime 	77.9
+scalar FranciscoScenario.node[11].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[11].veinsmobility 	minSpeed 	0.25701562327403
+scalar FranciscoScenario.node[11].veinsmobility 	maxSpeed 	13.999894360469
+scalar FranciscoScenario.node[11].veinsmobility 	totalDistance 	867.92081952185
+scalar FranciscoScenario.node[11].veinsmobility 	totalCO2Emission 	214.29648827524
+scalar FranciscoScenario.node[12].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[12].appl 	messageReceivedSignal:count 	1441
+attr description  "Message Received"
+scalar FranciscoScenario.node[12].appl 	beaconReceivedSignal:count 	1436
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[12].appl 	warningReceivedSignal:count 	5
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[12].nic.phy80211p 	busyTime 	0.001388661959571
+scalar FranciscoScenario.node[12].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	ReceivedBroadcasts 	1441
+scalar FranciscoScenario.node[12].nic.mac1609_4 	SentPackets 	75
+scalar FranciscoScenario.node[12].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	TimesIntoBackoff 	75
+scalar FranciscoScenario.node[12].nic.mac1609_4 	SlotsBackoff 	127
+scalar FranciscoScenario.node[12].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[12].nic.mac1609_4 	totalBusyTime 	0.109466998484
+scalar FranciscoScenario.node[12].veinsmobility 	startTime 	36.1
+scalar FranciscoScenario.node[12].veinsmobility 	totalTime 	74.9
+scalar FranciscoScenario.node[12].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[12].veinsmobility 	minSpeed 	0.2536784628951
+scalar FranciscoScenario.node[12].veinsmobility 	maxSpeed 	13.999813819695
+scalar FranciscoScenario.node[12].veinsmobility 	totalDistance 	859.00778374632
+scalar FranciscoScenario.node[12].veinsmobility 	totalCO2Emission 	210.18463003745
+scalar FranciscoScenario.node[13].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[13].appl 	messageReceivedSignal:count 	1401
+attr description  "Message Received"
+scalar FranciscoScenario.node[13].appl 	beaconReceivedSignal:count 	1397
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[13].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[13].nic.phy80211p 	busyTime 	0.0014058709500774
+scalar FranciscoScenario.node[13].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	ReceivedBroadcasts 	1401
+scalar FranciscoScenario.node[13].nic.mac1609_4 	SentPackets 	72
+scalar FranciscoScenario.node[13].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	TimesIntoBackoff 	72
+scalar FranciscoScenario.node[13].nic.mac1609_4 	SlotsBackoff 	119
+scalar FranciscoScenario.node[13].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[13].nic.mac1609_4 	totalBusyTime 	0.106319998527
+scalar FranciscoScenario.node[13].veinsmobility 	startTime 	39.1
+scalar FranciscoScenario.node[13].veinsmobility 	totalTime 	71.9
+scalar FranciscoScenario.node[13].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[13].veinsmobility 	minSpeed 	0.2563861307737
+scalar FranciscoScenario.node[13].veinsmobility 	maxSpeed 	13.999745033977
+scalar FranciscoScenario.node[13].veinsmobility 	totalDistance 	839.15238772181
+scalar FranciscoScenario.node[13].veinsmobility 	totalCO2Emission 	206.32441020935
+scalar FranciscoScenario.node[14].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[14].appl 	messageReceivedSignal:count 	1360
+attr description  "Message Received"
+scalar FranciscoScenario.node[14].appl 	beaconReceivedSignal:count 	1356
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[14].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[14].nic.phy80211p 	busyTime 	0.0014242295760914
+scalar FranciscoScenario.node[14].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	ReceivedBroadcasts 	1360
+scalar FranciscoScenario.node[14].nic.mac1609_4 	SentPackets 	69
+scalar FranciscoScenario.node[14].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	TimesIntoBackoff 	69
+scalar FranciscoScenario.node[14].nic.mac1609_4 	SlotsBackoff 	107
+scalar FranciscoScenario.node[14].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[14].nic.mac1609_4 	totalBusyTime 	0.103148998571
+scalar FranciscoScenario.node[14].veinsmobility 	startTime 	42.1
+scalar FranciscoScenario.node[14].veinsmobility 	totalTime 	68.9
+scalar FranciscoScenario.node[14].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[14].veinsmobility 	minSpeed 	0.25037681508181
+scalar FranciscoScenario.node[14].veinsmobility 	maxSpeed 	13.999613604036
+scalar FranciscoScenario.node[14].veinsmobility 	totalDistance 	805.18103774358
+scalar FranciscoScenario.node[14].veinsmobility 	totalCO2Emission 	201.5998898807
+scalar FranciscoScenario.node[15].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[15].appl 	messageReceivedSignal:count 	1308
+attr description  "Message Received"
+scalar FranciscoScenario.node[15].appl 	beaconReceivedSignal:count 	1304
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[15].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[15].nic.phy80211p 	busyTime 	0.0014322475049024
+scalar FranciscoScenario.node[15].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	ReceivedBroadcasts 	1308
+scalar FranciscoScenario.node[15].nic.mac1609_4 	SentPackets 	66
+scalar FranciscoScenario.node[15].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	TimesIntoBackoff 	66
+scalar FranciscoScenario.node[15].nic.mac1609_4 	SlotsBackoff 	89
+scalar FranciscoScenario.node[15].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[15].nic.mac1609_4 	totalBusyTime 	0.099185998626
+scalar FranciscoScenario.node[15].veinsmobility 	startTime 	45.1
+scalar FranciscoScenario.node[15].veinsmobility 	totalTime 	65.9
+scalar FranciscoScenario.node[15].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[15].veinsmobility 	minSpeed 	0.24741334290849
+scalar FranciscoScenario.node[15].veinsmobility 	maxSpeed 	13.999628236578
+scalar FranciscoScenario.node[15].veinsmobility 	totalDistance 	764.16963814182
+scalar FranciscoScenario.node[15].veinsmobility 	totalCO2Emission 	194.80665147317
+scalar FranciscoScenario.node[16].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[16].appl 	messageReceivedSignal:count 	1252
+attr description  "Message Received"
+scalar FranciscoScenario.node[16].appl 	beaconReceivedSignal:count 	1248
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[16].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[16].nic.phy80211p 	busyTime 	0.0014364538859721
+scalar FranciscoScenario.node[16].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	ReceivedBroadcasts 	1252
+scalar FranciscoScenario.node[16].nic.mac1609_4 	SentPackets 	63
+scalar FranciscoScenario.node[16].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	TimesIntoBackoff 	63
+scalar FranciscoScenario.node[16].nic.mac1609_4 	SlotsBackoff 	100
+scalar FranciscoScenario.node[16].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[16].nic.mac1609_4 	totalBusyTime 	0.094934998685
+scalar FranciscoScenario.node[16].veinsmobility 	startTime 	48.1
+scalar FranciscoScenario.node[16].veinsmobility 	totalTime 	62.9
+scalar FranciscoScenario.node[16].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[16].veinsmobility 	minSpeed 	0.25467185314931
+scalar FranciscoScenario.node[16].veinsmobility 	maxSpeed 	13.998675949997
+scalar FranciscoScenario.node[16].veinsmobility 	totalDistance 	722.96786891238
+scalar FranciscoScenario.node[16].veinsmobility 	totalCO2Emission 	188.53957732575
+scalar FranciscoScenario.node[17].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[17].appl 	messageReceivedSignal:count 	1189
+attr description  "Message Received"
+scalar FranciscoScenario.node[17].appl 	beaconReceivedSignal:count 	1185
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[17].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[17].nic.phy80211p 	busyTime 	0.0014326726944491
+scalar FranciscoScenario.node[17].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	ReceivedBroadcasts 	1189
+scalar FranciscoScenario.node[17].nic.mac1609_4 	SentPackets 	60
+scalar FranciscoScenario.node[17].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	TimesIntoBackoff 	60
+scalar FranciscoScenario.node[17].nic.mac1609_4 	SlotsBackoff 	79
+scalar FranciscoScenario.node[17].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[17].nic.mac1609_4 	totalBusyTime 	0.090179998751
+scalar FranciscoScenario.node[17].veinsmobility 	startTime 	51.1
+scalar FranciscoScenario.node[17].veinsmobility 	totalTime 	59.9
+scalar FranciscoScenario.node[17].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[17].veinsmobility 	minSpeed 	0.25575374198146
+scalar FranciscoScenario.node[17].veinsmobility 	maxSpeed 	13.999645525469
+scalar FranciscoScenario.node[17].veinsmobility 	totalDistance 	679.85365754071
+scalar FranciscoScenario.node[17].veinsmobility 	totalCO2Emission 	180.16951033232
+scalar FranciscoScenario.node[18].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[18].appl 	messageReceivedSignal:count 	1111
+attr description  "Message Received"
+scalar FranciscoScenario.node[18].appl 	beaconReceivedSignal:count 	1107
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[18].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[18].nic.phy80211p 	busyTime 	0.0014095251592277
+scalar FranciscoScenario.node[18].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	ReceivedBroadcasts 	1111
+scalar FranciscoScenario.node[18].nic.mac1609_4 	SentPackets 	57
+scalar FranciscoScenario.node[18].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	TimesIntoBackoff 	57
+scalar FranciscoScenario.node[18].nic.mac1609_4 	SlotsBackoff 	100
+scalar FranciscoScenario.node[18].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[18].nic.mac1609_4 	totalBusyTime 	0.084344998832
+scalar FranciscoScenario.node[18].veinsmobility 	startTime 	54.1
+scalar FranciscoScenario.node[18].veinsmobility 	totalTime 	56.9
+scalar FranciscoScenario.node[18].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[18].veinsmobility 	minSpeed 	0.25452556009637
+scalar FranciscoScenario.node[18].veinsmobility 	maxSpeed 	13.999782251157
+scalar FranciscoScenario.node[18].veinsmobility 	totalDistance 	637.17560792829
+scalar FranciscoScenario.node[18].veinsmobility 	totalCO2Emission 	174.38345930003
+scalar FranciscoScenario.node[19].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[19].appl 	messageReceivedSignal:count 	1031
+attr description  "Message Received"
+scalar FranciscoScenario.node[19].appl 	beaconReceivedSignal:count 	1028
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[19].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[19].nic.phy80211p 	busyTime 	0.0013802431135042
+scalar FranciscoScenario.node[19].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	ReceivedBroadcasts 	1031
+scalar FranciscoScenario.node[19].nic.mac1609_4 	SentPackets 	55
+scalar FranciscoScenario.node[19].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	TimesIntoBackoff 	55
+scalar FranciscoScenario.node[19].nic.mac1609_4 	SlotsBackoff 	72
+scalar FranciscoScenario.node[19].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[19].nic.mac1609_4 	totalBusyTime 	0.078438998914
+scalar FranciscoScenario.node[19].veinsmobility 	startTime 	57.1
+scalar FranciscoScenario.node[19].veinsmobility 	totalTime 	53.9
+scalar FranciscoScenario.node[19].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[19].veinsmobility 	minSpeed 	0.25546776798018
+scalar FranciscoScenario.node[19].veinsmobility 	maxSpeed 	13.999713971398
+scalar FranciscoScenario.node[19].veinsmobility 	totalDistance 	595.16009880473
+scalar FranciscoScenario.node[19].veinsmobility 	totalCO2Emission 	165.90446988213
+scalar FranciscoScenario.node[2].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[2].appl 	messageReceivedSignal:count 	1232
+attr description  "Message Received"
+scalar FranciscoScenario.node[2].appl 	beaconReceivedSignal:count 	1230
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[2].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[2].nic.phy80211p 	busyTime 	0.00084621133797618
+scalar FranciscoScenario.node[2].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	ReceivedBroadcasts 	1232
+scalar FranciscoScenario.node[2].nic.mac1609_4 	SentPackets 	105
+scalar FranciscoScenario.node[2].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	TimesIntoBackoff 	105
+scalar FranciscoScenario.node[2].nic.mac1609_4 	SlotsBackoff 	162
+scalar FranciscoScenario.node[2].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[2].nic.mac1609_4 	totalBusyTime 	0.096464998663
+scalar FranciscoScenario.node[2].veinsmobility 	startTime 	6.1
+scalar FranciscoScenario.node[2].veinsmobility 	totalTime 	104.9
+scalar FranciscoScenario.node[2].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[2].veinsmobility 	minSpeed 	4.6440225274321e-09
+scalar FranciscoScenario.node[2].veinsmobility 	maxSpeed 	13.999783729354
+scalar FranciscoScenario.node[2].veinsmobility 	totalDistance 	929.12861654045
+scalar FranciscoScenario.node[2].veinsmobility 	totalCO2Emission 	251.09754570407
+scalar FranciscoScenario.node[20].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[20].appl 	messageReceivedSignal:count 	942
+attr description  "Message Received"
+scalar FranciscoScenario.node[20].appl 	beaconReceivedSignal:count 	938
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[20].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[20].nic.phy80211p 	busyTime 	0.001336675315492
+scalar FranciscoScenario.node[20].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	ReceivedBroadcasts 	942
+scalar FranciscoScenario.node[20].nic.mac1609_4 	SentPackets 	51
+scalar FranciscoScenario.node[20].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	TimesIntoBackoff 	51
+scalar FranciscoScenario.node[20].nic.mac1609_4 	SlotsBackoff 	69
+scalar FranciscoScenario.node[20].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[20].nic.mac1609_4 	totalBusyTime 	0.071738999007
+scalar FranciscoScenario.node[20].veinsmobility 	startTime 	60.1
+scalar FranciscoScenario.node[20].veinsmobility 	totalTime 	50.9
+scalar FranciscoScenario.node[20].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[20].veinsmobility 	minSpeed 	0.25608324048971
+scalar FranciscoScenario.node[20].veinsmobility 	maxSpeed 	13.999556342459
+scalar FranciscoScenario.node[20].veinsmobility 	totalDistance 	552.93824579162
+scalar FranciscoScenario.node[20].veinsmobility 	totalCO2Emission 	160.62979436643
+scalar FranciscoScenario.node[21].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[21].appl 	messageReceivedSignal:count 	859
+attr description  "Message Received"
+scalar FranciscoScenario.node[21].appl 	beaconReceivedSignal:count 	856
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[21].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[21].nic.phy80211p 	busyTime 	0.0012931616121323
+scalar FranciscoScenario.node[21].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	ReceivedBroadcasts 	859
+scalar FranciscoScenario.node[21].nic.mac1609_4 	SentPackets 	49
+scalar FranciscoScenario.node[21].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	TimesIntoBackoff 	49
+scalar FranciscoScenario.node[21].nic.mac1609_4 	SlotsBackoff 	52
+scalar FranciscoScenario.node[21].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[21].nic.mac1609_4 	totalBusyTime 	0.065616999092
+scalar FranciscoScenario.node[21].veinsmobility 	startTime 	63.1
+scalar FranciscoScenario.node[21].veinsmobility 	totalTime 	47.9
+scalar FranciscoScenario.node[21].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[21].veinsmobility 	minSpeed 	0.24927679822454
+scalar FranciscoScenario.node[21].veinsmobility 	maxSpeed 	13.999445978974
+scalar FranciscoScenario.node[21].veinsmobility 	totalDistance 	510.89297531726
+scalar FranciscoScenario.node[21].veinsmobility 	totalCO2Emission 	154.03232371637
+scalar FranciscoScenario.node[22].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[22].appl 	messageReceivedSignal:count 	792
+attr description  "Message Received"
+scalar FranciscoScenario.node[22].appl 	beaconReceivedSignal:count 	789
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[22].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[22].nic.phy80211p 	busyTime 	0.0012721435804807
+scalar FranciscoScenario.node[22].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	ReceivedBroadcasts 	792
+scalar FranciscoScenario.node[22].nic.mac1609_4 	SentPackets 	46
+scalar FranciscoScenario.node[22].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	TimesIntoBackoff 	46
+scalar FranciscoScenario.node[22].nic.mac1609_4 	SlotsBackoff 	73
+scalar FranciscoScenario.node[22].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[22].nic.mac1609_4 	totalBusyTime 	0.060573999162
+scalar FranciscoScenario.node[22].veinsmobility 	startTime 	66.1
+scalar FranciscoScenario.node[22].veinsmobility 	totalTime 	44.9
+scalar FranciscoScenario.node[22].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[22].veinsmobility 	minSpeed 	0.24913902792754
+scalar FranciscoScenario.node[22].veinsmobility 	maxSpeed 	13.999100857642
+scalar FranciscoScenario.node[22].veinsmobility 	totalDistance 	467.84010984628
+scalar FranciscoScenario.node[22].veinsmobility 	totalCO2Emission 	144.93273248057
+scalar FranciscoScenario.node[23].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[23].appl 	messageReceivedSignal:count 	729
+attr description  "Message Received"
+scalar FranciscoScenario.node[23].appl 	beaconReceivedSignal:count 	726
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[23].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[23].nic.phy80211p 	busyTime 	0.0012549857843906
+scalar FranciscoScenario.node[23].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	ReceivedBroadcasts 	729
+scalar FranciscoScenario.node[23].nic.mac1609_4 	SentPackets 	42
+scalar FranciscoScenario.node[23].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	TimesIntoBackoff 	42
+scalar FranciscoScenario.node[23].nic.mac1609_4 	SlotsBackoff 	53
+scalar FranciscoScenario.node[23].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[23].nic.mac1609_4 	totalBusyTime 	0.055697999229
+scalar FranciscoScenario.node[23].veinsmobility 	startTime 	69.1
+scalar FranciscoScenario.node[23].veinsmobility 	totalTime 	41.9
+scalar FranciscoScenario.node[23].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[23].veinsmobility 	minSpeed 	0.25980012627481
+scalar FranciscoScenario.node[23].veinsmobility 	maxSpeed 	13.996568891653
+scalar FranciscoScenario.node[23].veinsmobility 	totalDistance 	429.03443728209
+scalar FranciscoScenario.node[23].veinsmobility 	totalCO2Emission 	139.94569999795
+scalar FranciscoScenario.node[24].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[24].appl 	messageReceivedSignal:count 	672
+attr description  "Message Received"
+scalar FranciscoScenario.node[24].appl 	beaconReceivedSignal:count 	669
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[24].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[24].nic.phy80211p 	busyTime 	0.0012462786146124
+scalar FranciscoScenario.node[24].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	ReceivedBroadcasts 	672
+scalar FranciscoScenario.node[24].nic.mac1609_4 	SentPackets 	39
+scalar FranciscoScenario.node[24].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	TimesIntoBackoff 	39
+scalar FranciscoScenario.node[24].nic.mac1609_4 	SlotsBackoff 	63
+scalar FranciscoScenario.node[24].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[24].nic.mac1609_4 	totalBusyTime 	0.051374999289
+scalar FranciscoScenario.node[24].veinsmobility 	startTime 	72.1
+scalar FranciscoScenario.node[24].veinsmobility 	totalTime 	38.9
+scalar FranciscoScenario.node[24].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[24].veinsmobility 	minSpeed 	0.25438760111481
+scalar FranciscoScenario.node[24].veinsmobility 	maxSpeed 	13.996791445932
+scalar FranciscoScenario.node[24].veinsmobility 	totalDistance 	387.47858326051
+scalar FranciscoScenario.node[24].veinsmobility 	totalCO2Emission 	131.91946339019
+scalar FranciscoScenario.node[25].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[25].appl 	messageReceivedSignal:count 	609
+attr description  "Message Received"
+scalar FranciscoScenario.node[25].appl 	beaconReceivedSignal:count 	606
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[25].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[25].nic.phy80211p 	busyTime 	0.0012240971652536
+scalar FranciscoScenario.node[25].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	ReceivedBroadcasts 	609
+scalar FranciscoScenario.node[25].nic.mac1609_4 	SentPackets 	36
+scalar FranciscoScenario.node[25].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	TimesIntoBackoff 	36
+scalar FranciscoScenario.node[25].nic.mac1609_4 	SlotsBackoff 	48
+scalar FranciscoScenario.node[25].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[25].nic.mac1609_4 	totalBusyTime 	0.046619999355
+scalar FranciscoScenario.node[25].veinsmobility 	startTime 	75.1
+scalar FranciscoScenario.node[25].veinsmobility 	totalTime 	35.9
+scalar FranciscoScenario.node[25].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[25].veinsmobility 	minSpeed 	0.24943925448973
+scalar FranciscoScenario.node[25].veinsmobility 	maxSpeed 	13.999567791808
+scalar FranciscoScenario.node[25].veinsmobility 	totalDistance 	346.42709693529
+scalar FranciscoScenario.node[25].veinsmobility 	totalCO2Emission 	125.4389887701
+scalar FranciscoScenario.node[26].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[26].appl 	messageReceivedSignal:count 	543
+attr description  "Message Received"
+scalar FranciscoScenario.node[26].appl 	beaconReceivedSignal:count 	540
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[26].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[26].nic.phy80211p 	busyTime 	0.001191317462534
+scalar FranciscoScenario.node[26].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	ReceivedBroadcasts 	543
+scalar FranciscoScenario.node[26].nic.mac1609_4 	SentPackets 	33
+scalar FranciscoScenario.node[26].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	TimesIntoBackoff 	33
+scalar FranciscoScenario.node[26].nic.mac1609_4 	SlotsBackoff 	46
+scalar FranciscoScenario.node[26].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[26].nic.mac1609_4 	totalBusyTime 	0.041648999424
+scalar FranciscoScenario.node[26].veinsmobility 	startTime 	78.1
+scalar FranciscoScenario.node[26].veinsmobility 	totalTime 	32.9
+scalar FranciscoScenario.node[26].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[26].veinsmobility 	minSpeed 	0.25628435360407
+scalar FranciscoScenario.node[26].veinsmobility 	maxSpeed 	13.996195461615
+scalar FranciscoScenario.node[26].veinsmobility 	totalDistance 	303.48154313007
+scalar FranciscoScenario.node[26].veinsmobility 	totalCO2Emission 	117.99941270189
+scalar FranciscoScenario.node[27].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[27].appl 	messageReceivedSignal:count 	476
+attr description  "Message Received"
+scalar FranciscoScenario.node[27].appl 	beaconReceivedSignal:count 	473
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[27].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[27].nic.phy80211p 	busyTime 	0.0011495633688736
+scalar FranciscoScenario.node[27].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	ReceivedBroadcasts 	476
+scalar FranciscoScenario.node[27].nic.mac1609_4 	SentPackets 	30
+scalar FranciscoScenario.node[27].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	TimesIntoBackoff 	30
+scalar FranciscoScenario.node[27].nic.mac1609_4 	SlotsBackoff 	41
+scalar FranciscoScenario.node[27].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[27].nic.mac1609_4 	totalBusyTime 	0.036605999494
+scalar FranciscoScenario.node[27].veinsmobility 	startTime 	81.1
+scalar FranciscoScenario.node[27].veinsmobility 	totalTime 	29.9
+scalar FranciscoScenario.node[27].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[27].veinsmobility 	minSpeed 	0.25462861368805
+scalar FranciscoScenario.node[27].veinsmobility 	maxSpeed 	13.887985534323
+scalar FranciscoScenario.node[27].veinsmobility 	totalDistance 	262.10236488396
+scalar FranciscoScenario.node[27].veinsmobility 	totalCO2Emission 	107.59780216953
+scalar FranciscoScenario.node[28].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[28].appl 	messageReceivedSignal:count 	414
+attr description  "Message Received"
+scalar FranciscoScenario.node[28].appl 	beaconReceivedSignal:count 	410
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[28].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[28].nic.phy80211p 	busyTime 	0.0011136550523481
+scalar FranciscoScenario.node[28].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	ReceivedBroadcasts 	414
+scalar FranciscoScenario.node[28].nic.mac1609_4 	SentPackets 	27
+scalar FranciscoScenario.node[28].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	TimesIntoBackoff 	27
+scalar FranciscoScenario.node[28].nic.mac1609_4 	SlotsBackoff 	42
+scalar FranciscoScenario.node[28].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[28].nic.mac1609_4 	totalBusyTime 	0.031970999559
+scalar FranciscoScenario.node[28].veinsmobility 	startTime 	84.1
+scalar FranciscoScenario.node[28].veinsmobility 	totalTime 	26.9
+scalar FranciscoScenario.node[28].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[28].veinsmobility 	minSpeed 	0.24807108780206
+scalar FranciscoScenario.node[28].veinsmobility 	maxSpeed 	13.885242396239
+scalar FranciscoScenario.node[28].veinsmobility 	totalDistance 	232.43483553573
+scalar FranciscoScenario.node[28].veinsmobility 	totalCO2Emission 	88.394688361562
+scalar FranciscoScenario.node[29].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[29].appl 	messageReceivedSignal:count 	354
+attr description  "Message Received"
+scalar FranciscoScenario.node[29].appl 	beaconReceivedSignal:count 	351
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[29].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[29].nic.phy80211p 	busyTime 	0.0010707516802089
+scalar FranciscoScenario.node[29].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	ReceivedBroadcasts 	354
+scalar FranciscoScenario.node[29].nic.mac1609_4 	SentPackets 	24
+scalar FranciscoScenario.node[29].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	TimesIntoBackoff 	24
+scalar FranciscoScenario.node[29].nic.mac1609_4 	SlotsBackoff 	39
+scalar FranciscoScenario.node[29].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[29].nic.mac1609_4 	totalBusyTime 	0.027383999622
+scalar FranciscoScenario.node[29].veinsmobility 	startTime 	87.1
+scalar FranciscoScenario.node[29].veinsmobility 	totalTime 	23.9
+scalar FranciscoScenario.node[29].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[29].veinsmobility 	minSpeed 	0.25177783574676
+scalar FranciscoScenario.node[29].veinsmobility 	maxSpeed 	13.887826812528
+scalar FranciscoScenario.node[29].veinsmobility 	totalDistance 	216.62676891049
+scalar FranciscoScenario.node[29].veinsmobility 	totalCO2Emission 	80.765757095831
+scalar FranciscoScenario.node[3].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[3].appl 	messageReceivedSignal:count 	1279
+attr description  "Message Received"
+scalar FranciscoScenario.node[3].appl 	beaconReceivedSignal:count 	1277
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[3].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[3].nic.phy80211p 	busyTime 	0.00090431150863527
+scalar FranciscoScenario.node[3].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	ReceivedBroadcasts 	1279
+scalar FranciscoScenario.node[3].nic.mac1609_4 	SentPackets 	102
+scalar FranciscoScenario.node[3].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	TimesIntoBackoff 	102
+scalar FranciscoScenario.node[3].nic.mac1609_4 	SlotsBackoff 	155
+scalar FranciscoScenario.node[3].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[3].nic.mac1609_4 	totalBusyTime 	0.099629998619
+scalar FranciscoScenario.node[3].veinsmobility 	startTime 	9.1
+scalar FranciscoScenario.node[3].veinsmobility 	totalTime 	101.9
+scalar FranciscoScenario.node[3].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[3].veinsmobility 	minSpeed 	1.0565459797248e-07
+scalar FranciscoScenario.node[3].veinsmobility 	maxSpeed 	13.99972369859
+scalar FranciscoScenario.node[3].veinsmobility 	totalDistance 	920.19924017751
+scalar FranciscoScenario.node[3].veinsmobility 	totalCO2Emission 	245.30988441265
+scalar FranciscoScenario.node[30].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[30].appl 	messageReceivedSignal:count 	298
+attr description  "Message Received"
+scalar FranciscoScenario.node[30].appl 	beaconReceivedSignal:count 	295
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[30].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[30].nic.phy80211p 	busyTime 	0.0010316012238554
+scalar FranciscoScenario.node[30].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	ReceivedBroadcasts 	298
+scalar FranciscoScenario.node[30].nic.mac1609_4 	SentPackets 	21
+scalar FranciscoScenario.node[30].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	TimesIntoBackoff 	21
+scalar FranciscoScenario.node[30].nic.mac1609_4 	SlotsBackoff 	37
+scalar FranciscoScenario.node[30].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[30].nic.mac1609_4 	totalBusyTime 	0.023132999681
+scalar FranciscoScenario.node[30].veinsmobility 	startTime 	90.1
+scalar FranciscoScenario.node[30].veinsmobility 	totalTime 	20.9
+scalar FranciscoScenario.node[30].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[30].veinsmobility 	minSpeed 	0.25376207611151
+scalar FranciscoScenario.node[30].veinsmobility 	maxSpeed 	13.889617724477
+scalar FranciscoScenario.node[30].veinsmobility 	totalDistance 	190.17946296804
+scalar FranciscoScenario.node[30].veinsmobility 	totalCO2Emission 	76.277839805843
+scalar FranciscoScenario.node[31].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[31].appl 	messageReceivedSignal:count 	258
+attr description  "Message Received"
+scalar FranciscoScenario.node[31].appl 	beaconReceivedSignal:count 	258
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[31].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[31].nic.phy80211p 	busyTime 	0.0010355482879873
+scalar FranciscoScenario.node[31].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	ReceivedBroadcasts 	258
+scalar FranciscoScenario.node[31].nic.mac1609_4 	SentPackets 	18
+scalar FranciscoScenario.node[31].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	TimesIntoBackoff 	18
+scalar FranciscoScenario.node[31].nic.mac1609_4 	SlotsBackoff 	25
+scalar FranciscoScenario.node[31].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[31].nic.mac1609_4 	totalBusyTime 	0.019889999724
+scalar FranciscoScenario.node[31].veinsmobility 	startTime 	93.1
+scalar FranciscoScenario.node[31].veinsmobility 	totalTime 	17.9
+scalar FranciscoScenario.node[31].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[31].veinsmobility 	minSpeed 	0.25289549312391
+scalar FranciscoScenario.node[31].veinsmobility 	maxSpeed 	13.888177898286
+scalar FranciscoScenario.node[31].veinsmobility 	totalDistance 	150.32367438849
+scalar FranciscoScenario.node[31].veinsmobility 	totalCO2Emission 	66.122611089991
+scalar FranciscoScenario.node[32].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[32].appl 	messageReceivedSignal:count 	224
+attr description  "Message Received"
+scalar FranciscoScenario.node[32].appl 	beaconReceivedSignal:count 	224
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[32].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[32].nic.phy80211p 	busyTime 	0.0010796392408326
+scalar FranciscoScenario.node[32].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	ReceivedBroadcasts 	224
+scalar FranciscoScenario.node[32].nic.mac1609_4 	SentPackets 	15
+scalar FranciscoScenario.node[32].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	TimesIntoBackoff 	15
+scalar FranciscoScenario.node[32].nic.mac1609_4 	SlotsBackoff 	27
+scalar FranciscoScenario.node[32].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[32].nic.mac1609_4 	totalBusyTime 	0.017222999761
+scalar FranciscoScenario.node[32].veinsmobility 	startTime 	96.1
+scalar FranciscoScenario.node[32].veinsmobility 	totalTime 	14.9
+scalar FranciscoScenario.node[32].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[32].veinsmobility 	minSpeed 	0.25848284743493
+scalar FranciscoScenario.node[32].veinsmobility 	maxSpeed 	13.886753857122
+scalar FranciscoScenario.node[32].veinsmobility 	totalDistance 	122.3652245235
+scalar FranciscoScenario.node[32].veinsmobility 	totalCO2Emission 	47.88551558154
+scalar FranciscoScenario.node[33].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[33].appl 	messageReceivedSignal:count 	188
+attr description  "Message Received"
+scalar FranciscoScenario.node[33].appl 	beaconReceivedSignal:count 	188
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[33].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[33].nic.phy80211p 	busyTime 	0.0011338275681911
+scalar FranciscoScenario.node[33].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	ReceivedBroadcasts 	188
+scalar FranciscoScenario.node[33].nic.mac1609_4 	SentPackets 	12
+scalar FranciscoScenario.node[33].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	TimesIntoBackoff 	12
+scalar FranciscoScenario.node[33].nic.mac1609_4 	SlotsBackoff 	21
+scalar FranciscoScenario.node[33].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[33].nic.mac1609_4 	totalBusyTime 	0.0144119998
+scalar FranciscoScenario.node[33].veinsmobility 	startTime 	99.1
+scalar FranciscoScenario.node[33].veinsmobility 	totalTime 	11.9
+scalar FranciscoScenario.node[33].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[33].veinsmobility 	minSpeed 	0.25061254919413
+scalar FranciscoScenario.node[33].veinsmobility 	maxSpeed 	13.888301764501
+scalar FranciscoScenario.node[33].veinsmobility 	totalDistance 	106.14412229506
+scalar FranciscoScenario.node[33].veinsmobility 	totalCO2Emission 	41.25345909401
+scalar FranciscoScenario.node[34].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[34].appl 	messageReceivedSignal:count 	154
+attr description  "Message Received"
+scalar FranciscoScenario.node[34].appl 	beaconReceivedSignal:count 	154
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[34].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[34].nic.phy80211p 	busyTime 	0.0012405011278022
+scalar FranciscoScenario.node[34].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	ReceivedBroadcasts 	154
+scalar FranciscoScenario.node[34].nic.mac1609_4 	SentPackets 	9
+scalar FranciscoScenario.node[34].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	TimesIntoBackoff 	9
+scalar FranciscoScenario.node[34].nic.mac1609_4 	SlotsBackoff 	21
+scalar FranciscoScenario.node[34].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[34].nic.mac1609_4 	totalBusyTime 	0.011744999837
+scalar FranciscoScenario.node[34].veinsmobility 	startTime 	102.1
+scalar FranciscoScenario.node[34].veinsmobility 	totalTime 	8.9
+scalar FranciscoScenario.node[34].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[34].veinsmobility 	minSpeed 	0.25843119333196
+scalar FranciscoScenario.node[34].veinsmobility 	maxSpeed 	13.879900401738
+scalar FranciscoScenario.node[34].veinsmobility 	totalDistance 	76.694779819942
+scalar FranciscoScenario.node[34].veinsmobility 	totalCO2Emission 	37.428321373863
+scalar FranciscoScenario.node[35].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[35].appl 	messageReceivedSignal:count 	107
+attr description  "Message Received"
+scalar FranciscoScenario.node[35].appl 	beaconReceivedSignal:count 	107
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[35].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[35].nic.phy80211p 	busyTime 	0.001297335932269
+scalar FranciscoScenario.node[35].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	ReceivedBroadcasts 	107
+scalar FranciscoScenario.node[35].nic.mac1609_4 	SentPackets 	6
+scalar FranciscoScenario.node[35].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	TimesIntoBackoff 	6
+scalar FranciscoScenario.node[35].nic.mac1609_4 	SlotsBackoff 	3
+scalar FranciscoScenario.node[35].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[35].nic.mac1609_4 	totalBusyTime 	0.008141999887
+scalar FranciscoScenario.node[35].veinsmobility 	startTime 	105.1
+scalar FranciscoScenario.node[35].veinsmobility 	totalTime 	5.9
+scalar FranciscoScenario.node[35].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[35].veinsmobility 	minSpeed 	0.25399213792197
+scalar FranciscoScenario.node[35].veinsmobility 	maxSpeed 	11.378000284687
+scalar FranciscoScenario.node[35].veinsmobility 	totalDistance 	35.125587756909
+scalar FranciscoScenario.node[35].veinsmobility 	totalCO2Emission 	24.207894043204
+scalar FranciscoScenario.node[36].appl 	newWarningReceivedSignal:count 	0
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[36].appl 	messageReceivedSignal:count 	53
+attr description  "Message Received"
+scalar FranciscoScenario.node[36].appl 	beaconReceivedSignal:count 	53
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[36].appl 	warningReceivedSignal:count 	0
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[36].nic.phy80211p 	busyTime 	0.0012986999248304
+scalar FranciscoScenario.node[36].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	ReceivedBroadcasts 	53
+scalar FranciscoScenario.node[36].nic.mac1609_4 	SentPackets 	3
+scalar FranciscoScenario.node[36].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	TimesIntoBackoff 	3
+scalar FranciscoScenario.node[36].nic.mac1609_4 	SlotsBackoff 	3
+scalar FranciscoScenario.node[36].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[36].nic.mac1609_4 	totalBusyTime 	0.004034999944
+scalar FranciscoScenario.node[36].veinsmobility 	startTime 	108.1
+scalar FranciscoScenario.node[36].veinsmobility 	totalTime 	2.9
+scalar FranciscoScenario.node[36].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[36].veinsmobility 	minSpeed 	0.25851752216462
+scalar FranciscoScenario.node[36].veinsmobility 	maxSpeed 	5.6702183201694
+scalar FranciscoScenario.node[36].veinsmobility 	totalDistance 	9.1551939211789
+scalar FranciscoScenario.node[36].veinsmobility 	totalCO2Emission 	7.5620071101615
+scalar FranciscoScenario.node[4].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[4].appl 	messageReceivedSignal:count 	1326
+attr description  "Message Received"
+scalar FranciscoScenario.node[4].appl 	beaconReceivedSignal:count 	1324
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[4].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[4].nic.phy80211p 	busyTime 	0.00096593509684528
+scalar FranciscoScenario.node[4].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	ReceivedBroadcasts 	1326
+scalar FranciscoScenario.node[4].nic.mac1609_4 	SentPackets 	99
+scalar FranciscoScenario.node[4].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	TimesIntoBackoff 	99
+scalar FranciscoScenario.node[4].nic.mac1609_4 	SlotsBackoff 	135
+scalar FranciscoScenario.node[4].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[4].nic.mac1609_4 	totalBusyTime 	0.102794998575
+scalar FranciscoScenario.node[4].veinsmobility 	startTime 	12.1
+scalar FranciscoScenario.node[4].veinsmobility 	totalTime 	98.9
+scalar FranciscoScenario.node[4].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[4].veinsmobility 	minSpeed 	1.7549598463964e-06
+scalar FranciscoScenario.node[4].veinsmobility 	maxSpeed 	13.999990419396
+scalar FranciscoScenario.node[4].veinsmobility 	totalDistance 	911.87753662793
+scalar FranciscoScenario.node[4].veinsmobility 	totalCO2Emission 	240.18258675835
+scalar FranciscoScenario.node[5].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[5].appl 	messageReceivedSignal:count 	1367
+attr description  "Message Received"
+scalar FranciscoScenario.node[5].appl 	beaconReceivedSignal:count 	1365
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[5].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[5].nic.phy80211p 	busyTime 	0.001026909742456
+scalar FranciscoScenario.node[5].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	ReceivedBroadcasts 	1367
+scalar FranciscoScenario.node[5].nic.mac1609_4 	SentPackets 	96
+scalar FranciscoScenario.node[5].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	TimesIntoBackoff 	96
+scalar FranciscoScenario.node[5].nic.mac1609_4 	SlotsBackoff 	140
+scalar FranciscoScenario.node[5].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[5].nic.mac1609_4 	totalBusyTime 	0.105527998537
+scalar FranciscoScenario.node[5].veinsmobility 	startTime 	15.1
+scalar FranciscoScenario.node[5].veinsmobility 	totalTime 	95.9
+scalar FranciscoScenario.node[5].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[5].veinsmobility 	minSpeed 	2.2049111367873e-05
+scalar FranciscoScenario.node[5].veinsmobility 	maxSpeed 	13.999578557343
+scalar FranciscoScenario.node[5].veinsmobility 	totalDistance 	904.1087269364
+scalar FranciscoScenario.node[5].veinsmobility 	totalCO2Emission 	236.03953447554
+scalar FranciscoScenario.node[6].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[6].appl 	messageReceivedSignal:count 	1403
+attr description  "Message Received"
+scalar FranciscoScenario.node[6].appl 	beaconReceivedSignal:count 	1401
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[6].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[6].nic.phy80211p 	busyTime 	0.001087947310212
+scalar FranciscoScenario.node[6].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	ReceivedBroadcasts 	1403
+scalar FranciscoScenario.node[6].nic.mac1609_4 	SentPackets 	93
+scalar FranciscoScenario.node[6].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	TimesIntoBackoff 	93
+scalar FranciscoScenario.node[6].nic.mac1609_4 	SlotsBackoff 	161
+scalar FranciscoScenario.node[6].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[6].nic.mac1609_4 	totalBusyTime 	0.107900998504
+scalar FranciscoScenario.node[6].veinsmobility 	startTime 	18.1
+scalar FranciscoScenario.node[6].veinsmobility 	totalTime 	92.9
+scalar FranciscoScenario.node[6].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[6].veinsmobility 	minSpeed 	0.00020150300481598
+scalar FranciscoScenario.node[6].veinsmobility 	maxSpeed 	13.999881321082
+scalar FranciscoScenario.node[6].veinsmobility 	totalDistance 	896.93734324408
+scalar FranciscoScenario.node[6].veinsmobility 	totalCO2Emission 	233.17637046154
+scalar FranciscoScenario.node[7].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[7].appl 	messageReceivedSignal:count 	1436
+attr description  "Message Received"
+scalar FranciscoScenario.node[7].appl 	beaconReceivedSignal:count 	1434
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[7].appl 	warningReceivedSignal:count 	2
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[7].nic.phy80211p 	busyTime 	0.0011506551938513
+scalar FranciscoScenario.node[7].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	ReceivedBroadcasts 	1436
+scalar FranciscoScenario.node[7].nic.mac1609_4 	SentPackets 	90
+scalar FranciscoScenario.node[7].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	TimesIntoBackoff 	90
+scalar FranciscoScenario.node[7].nic.mac1609_4 	SlotsBackoff 	130
+scalar FranciscoScenario.node[7].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[7].nic.mac1609_4 	totalBusyTime 	0.110057998474
+scalar FranciscoScenario.node[7].veinsmobility 	startTime 	21.1
+scalar FranciscoScenario.node[7].veinsmobility 	totalTime 	89.9
+scalar FranciscoScenario.node[7].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[7].veinsmobility 	minSpeed 	0.0014975894353618
+scalar FranciscoScenario.node[7].veinsmobility 	maxSpeed 	13.999530423016
+scalar FranciscoScenario.node[7].veinsmobility 	totalDistance 	890.43250033988
+scalar FranciscoScenario.node[7].veinsmobility 	totalCO2Emission 	228.65729524411
+scalar FranciscoScenario.node[8].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[8].appl 	messageReceivedSignal:count 	1452
+attr description  "Message Received"
+scalar FranciscoScenario.node[8].appl 	beaconReceivedSignal:count 	1449
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[8].appl 	warningReceivedSignal:count 	3
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[8].nic.phy80211p 	busyTime 	0.0012041639964301
+scalar FranciscoScenario.node[8].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	ReceivedBroadcasts 	1452
+scalar FranciscoScenario.node[8].nic.mac1609_4 	SentPackets 	87
+scalar FranciscoScenario.node[8].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	TimesIntoBackoff 	87
+scalar FranciscoScenario.node[8].nic.mac1609_4 	SlotsBackoff 	154
+scalar FranciscoScenario.node[8].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[8].nic.mac1609_4 	totalBusyTime 	0.111038998461
+scalar FranciscoScenario.node[8].veinsmobility 	startTime 	24.1
+scalar FranciscoScenario.node[8].veinsmobility 	totalTime 	86.9
+scalar FranciscoScenario.node[8].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[8].veinsmobility 	minSpeed 	0.0084420612665933
+scalar FranciscoScenario.node[8].veinsmobility 	maxSpeed 	13.999699752952
+scalar FranciscoScenario.node[8].veinsmobility 	totalDistance 	884.42706831105
+scalar FranciscoScenario.node[8].veinsmobility 	totalCO2Emission 	225.53076523408
+scalar FranciscoScenario.node[9].appl 	newWarningReceivedSignal:count 	1
+attr description  "New Warning Message Received"
+scalar FranciscoScenario.node[9].appl 	messageReceivedSignal:count 	1465
+attr description  "Message Received"
+scalar FranciscoScenario.node[9].appl 	beaconReceivedSignal:count 	1461
+attr description  "Beacon Message Received"
+scalar FranciscoScenario.node[9].appl 	warningReceivedSignal:count 	4
+attr description  "Warning Message Received"
+scalar FranciscoScenario.node[9].nic.phy80211p 	busyTime 	0.0012597821194123
+scalar FranciscoScenario.node[9].nic.mac1609_4 	ReceivedUnicastPackets 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	ReceivedBroadcasts 	1465
+scalar FranciscoScenario.node[9].nic.mac1609_4 	SentPackets 	84
+scalar FranciscoScenario.node[9].nic.mac1609_4 	SNIRLostPackets 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	RXTXLostPackets 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	TotalLostPackets 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	DroppedPacketsInMac 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	TooLittleTime 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	TimesIntoBackoff 	84
+scalar FranciscoScenario.node[9].nic.mac1609_4 	SlotsBackoff 	137
+scalar FranciscoScenario.node[9].nic.mac1609_4 	NumInternalContention 	0
+scalar FranciscoScenario.node[9].nic.mac1609_4 	totalBusyTime 	0.111803998451
+scalar FranciscoScenario.node[9].veinsmobility 	startTime 	27.1
+scalar FranciscoScenario.node[9].veinsmobility 	totalTime 	83.9
+scalar FranciscoScenario.node[9].veinsmobility 	stopTime 	111.03832306758
+scalar FranciscoScenario.node[9].veinsmobility 	minSpeed 	0.037367187239871
+scalar FranciscoScenario.node[9].veinsmobility 	maxSpeed 	13.999598088698
+scalar FranciscoScenario.node[9].veinsmobility 	totalDistance 	878.79757257821
+scalar FranciscoScenario.node[9].veinsmobility 	totalCO2Emission 	221.47331911154
+scalar FranciscoScenario.stats 	allMessagesReceivedSignal:count 	33942
+attr description  "All Messages Received"
+scalar FranciscoScenario.stats 	allWarningsReceivedSignal:count 	98
+attr description  "All Warnings Received"
+scalar FranciscoScenario.stats 	allNewWarningsReceivedSignal:count 	31
+attr description  "All New Warnings Received"
+scalar FranciscoScenario.stats 	allBeaconsReceivedSignal:count 	33844
+attr description  "All Beacons Received"
