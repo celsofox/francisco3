@@ -34,6 +34,7 @@ protected:
 //    bool isRepeat;
     double distanceThreshold;
     long indexOfAccidentNode;
+    double randomRebroadcastDelay;
 
     map<long,WaveShortMessages> receivedMessages;    // treeId, WSM vector
 
@@ -42,6 +43,7 @@ protected:
     virtual void onData(WaveShortMessage *wsm);
     virtual void handlePositionUpdate(cObject *obj);
     virtual void sendMessage(std::string blockedRoadId);
+    virtual void handleSelfMsg(cMessage *msg);
 };
 
 #endif // Distance_H

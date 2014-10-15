@@ -1,9 +1,13 @@
 #include "Distance.h"
 #include <WaveShortMessage_m.h>
 #include <iostream>
+#include <cstring>
+#include <cstdio>
 
 using Veins::TraCIMobility;
 using Veins::TraCIMobilityAccess;
+using std::strcmp;
+using std::sprintf;
 
 Define_Module(Distance)
 
@@ -16,6 +20,7 @@ void Distance::initialize(int stage)
 
         distanceThreshold = par("distanceThreshold").doubleValue();
         indexOfAccidentNode = par("indexOfAccidentNode").longValue();
+        randomRebroadcastDelay = par("randomRebroadcastDelay").doubleValue();
 
         traci = TraCIMobilityAccess().get(getParentModule());
         stats = FranciscoStatisticsAccess().getIfExists();
@@ -27,7 +32,6 @@ void Distance::initialize(int stage)
 
         lastDroveAt = simTime();
         sentMessage = false;
-//        isRepeat = false;
     }
 }
 
@@ -58,41 +62,25 @@ void Distance::onData(WaveShortMessage *wsm)
     stats->updateAllWarningsReceived();
     stats->updateAllMessagesReceived();
 
-    Coord coord = traci->getPositionAt(simTime());
-
-    // dMin == the shortest d of a any neighbor who has broadcast the same message
+    // prevent originating disseminator from participating in further dissemination attempts
+    if (sentMessage)
+        return;
 
     // add message to receivedMessages
     receivedMessages[wsm->getTreeId()].push_back(wsm->dup());
 
-    // get dMin
-    WaveShortMessages mv = receivedMessages[wsm->getTreeId()];
-    double dMin = 100000.0;
-    WaveShortMessage* dMinMessage;
-
     // is it a new warning message?
-    if (mv.size() == 1) {
+    if (receivedMessages[wsm->getTreeId()].size() == 1) {
         stats->updateNewWarningsReceived();
         emit(newWarningReceivedSignal, 1);
-    }
 
-    for (uint i = 0; i < mv.size(); ++i) {
-        WaveShortMessage* m = mv[i];
-        double d = coord.distance(m->getSenderPos());
-        if (d < dMin) {
-            dMin = d;
-            dMinMessage = m;
-        }
-    }
+        // Cancel rebroadcast if dMin < distanceThreshold
+        if (traci->getPositionAt(simTime()).distance(wsm->getSenderPos()) < distanceThreshold)
+            return;
 
-    // rebroadcast?
-    bool rebroadcast = false;
-    if (dMin > distanceThreshold)
-        rebroadcast = true;
-
-    if (rebroadcast) {
-        sendWSM(dMinMessage->dup());
-
+        char buf[64];
+        sprintf(buf, "%ld", wsm->getTreeId());
+        scheduleAt(simTime() + SimTime(randomRebroadcastDelay, SIMTIME_MS), new cMessage(buf));
     }
 }
 
@@ -124,4 +112,31 @@ void Distance::sendMessage(std::string blockedRoadId)
     WaveShortMessage* wsm = prepareWSM("data", dataLengthBits, channel, dataPriority, -1,2);
     wsm->setWsmData(blockedRoadId.c_str());
     sendWSM(wsm);
+}
+
+void Distance::handleSelfMsg(cMessage *msg)
+{
+    if ((!strcmp(msg->getName(), "data")) || (!strcmp(msg->getName(), "beacon"))) {
+        BaseWaveApplLayer::handleSelfMsg(msg);
+        return;
+    }
+    else {          // is a "rebroadcast" timer
+        const char* key = msg->getName();
+        WaveShortMessages msgs = receivedMessages[atol(key)];
+        double dMin = 1000000.0;
+
+        for (uint i = 0; i < msgs.size(); ++i) {
+            WaveShortMessage* m = msgs[i];
+            Coord receiverPosition = traci->getPositionAt(simTime());
+            Coord senderPosition = m->getSenderPos();
+            double distance = senderPosition.distance(receiverPosition);
+            if (distance < dMin) {
+                dMin = distance;
+            }
+        }
+        if (dMin < distanceThreshold)
+            return;
+
+        sendWSM(msgs[0]->dup());
+    }
 }

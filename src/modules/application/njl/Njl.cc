@@ -73,6 +73,10 @@ void Njl::onData(WaveShortMessage *wsm)
     stats->updateAllWarningsReceived();
     stats->updateAllMessagesReceived();
 
+    // prevent originating disseminator from participating in further dissemination attempts
+    if (sentMessage)
+        return;
+
     receivedMessageMap[wsm->getTreeId()].push_back(wsm->dup());
 
     // is it a new message?
@@ -126,7 +130,6 @@ void Njl::handlePositionUpdate(cObject *obj)
 
             findHost()->getDisplayString().updateWith("r=16,red");
             sendMessage(traci->getRoadId());
-            sentMessage = true;
         }
     }
     else {
@@ -141,6 +144,7 @@ void Njl::sendMessage(std::string blockedRoadId)
     WaveShortMessage* wsm = prepareWSM("data", dataLengthBits, channel, dataPriority, -1,2);
     wsm->setWsmData(blockedRoadId.c_str());
     sendWSM(wsm);
+    sentMessage = true;
 }
 
 bool Njl::hostIsClosestToJunction(string junctionId)
@@ -157,7 +161,6 @@ bool Njl::hostIsClosestToJunction(string junctionId)
             return false;
         }
     }
-
     return true;
 }
 

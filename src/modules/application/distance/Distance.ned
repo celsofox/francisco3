@@ -6,8 +6,9 @@ simple Distance extends BaseWaveApplLayer
     @class(Distance);
     @display("i=block/app2");
 
-    double distanceThreshold = default(30.0);
+    double distanceThreshold = default(300.0);
     int indexOfAccidentNode = default(0);
+    volatile double randomRebroadcastDelay = default(uniform(0,500));
 
     @signal[warningReceivedSignal](type=long);
     @statistic[warningReceivedSignal](record=count,vector; description="Warning Message Received");

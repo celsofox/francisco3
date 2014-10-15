@@ -7,8 +7,7 @@ simple Counter extends BaseWaveApplLayer
     @display("i=block/app2");
 
     int counterThreshold = default(3);
-    volatile double randomRebroacastDelay @unit("s") = default(uniform(0,500));
-    volatile double randomRebroadcastDelay = default(0.01);
+    volatile double randomRebroadcastDelay = default(uniform(0,500));
     int indexOfAccidentNode = default(0);
 
     @signal[warningReceivedSignal](type=long);

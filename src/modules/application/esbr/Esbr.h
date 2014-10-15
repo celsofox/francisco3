@@ -32,7 +32,6 @@ protected:
     double neighborLifetimeThreshold;
     long indexOfAccidentNode;
 
-
     simsignal_t beaconReceivedSignal;
     simsignal_t warningReceivedSignal;
     simsignal_t newWarningReceivedSignal;

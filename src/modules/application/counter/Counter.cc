@@ -31,7 +31,6 @@ void Counter::initialize(int stage)
 
         lastDroveAt = simTime();
         sentMessage = false;
-//        isRepeat = false;
     }
 }
 
@@ -60,6 +59,10 @@ void Counter::onData(WaveShortMessage *wsm)
     emit(messageReceivedSignal, 1);
     stats->updateAllWarningsReceived();
     stats->updateAllMessagesReceived();
+
+    // prevent originating disseminator from participating in further dissemination attempts
+    if (sentMessage)
+        return;
 
     receivedMessages[wsm->getTreeId()].push_back(wsm->dup());
 

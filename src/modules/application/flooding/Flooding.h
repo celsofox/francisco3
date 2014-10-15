@@ -27,7 +27,7 @@ protected:
     simsignal_t messageReceivedSignal;
     simtime_t lastDroveAt;
     bool sentMessage;
-    long indexOfAccidentNode;
+    long indexOfAccidentNode;    
 
 protected:
     virtual void onBeacon(WaveShortMessage *wsm);

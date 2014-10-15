@@ -111,6 +111,10 @@ void Esbr::onData(WaveShortMessage *wsm)
     stats->updateAllWarningsReceived();
     stats->updateAllMessagesReceived();
 
+    // prevent originating disseminator from participating in further dissemination attempts
+    if (sentMessage)
+        return;
+
     receivedMessageMap[wsm->getTreeId()].push_back(wsm->dup());
 
     std::cerr << "[DEBUG] receivedMessageMap[wsm->getTreeId()].size(): " << receivedMessageMap[wsm->getTreeId()].size() << std::endl;

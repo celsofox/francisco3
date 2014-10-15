@@ -26,7 +26,6 @@ void Flooding::initialize(int stage)
 
         lastDroveAt = simTime();
         sentMessage = false;
-//        isRepeat = false;
     }
 }
 
@@ -57,6 +56,9 @@ void Flooding::onData(WaveShortMessage *wsm)
     stats->updateAllWarningsReceived();
     stats->updateAllMessagesReceived();
 
+    // prevent originating disseminator from participating in further dissemination attempts
+    if (sentMessage)
+        return;
 
     bool messageIsRepeat = false;
 
