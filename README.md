@@ -11,6 +11,7 @@ Usage
 * `$ source setenv`
 * `$ ./configure`
 * `$ make`
+* `$ ./sumo-launchd.py -vv ${SUMO_HOME}/bin/sumo`
 * Choose a dissemination model in the "examples" directory.
 * `$ cd examples/<MODEL_NAME>`
 * `$ ./run`
