@@ -14,12 +14,13 @@ void Esbr::initialize(int stage)
     BaseWaveApplLayer::initialize(stage);
     if (stage == 0) {
 
-//        std::cerr << "In Esbr::initialize()" << endl;
+        // configuration variables found in omnetpp.ini
         senderReceiverDistanceThreshold = par("senderReceiverDistanceThreshold").doubleValue();
         sendWarningInterval = par("sendWarningInterval").doubleValue();
         hostToJunctionDistanceThreshold = par("hostToJunctionDistanceThreshold").doubleValue();
         neighborLifetimeThreshold = par("neighborLifetimeThreshold").doubleValue();
         indexOfAccidentNode = par("indexOfAccidentNode").longValue();
+        //
 
         traci = TraCIMobilityAccess().get(getParentModule());
         stats = FranciscoStatisticsAccess().getIfExists();
@@ -47,16 +48,12 @@ void Esbr::receiveSignal(cComponent *source, simsignal_t signalID, cComponent::c
     if (signalID == mobilityStateChangedSignal) {
         handlePositionUpdate(obj);
     }
-//	else if (signalID == parkingStateChangedSignal) {
-//		handleParkingUpdate(obj);
-//	}
 }
 
 
 void Esbr::onBeacon(WaveShortMessage *wsm)
 {
-//    std::cerr << "In Esbr::onBeacon()" << endl;
-    // handle stats
+    // statistics recording
     stats->updateAllBeaconsReceived();
     stats->updateAllMessagesReceived();
     emit(beaconReceivedSignal, 1);
@@ -76,11 +73,12 @@ void Esbr::onBeacon(WaveShortMessage *wsm)
         }
     }
 
+    // if it is a new neighbor, add it's message to the list of neighbors.
     if (isNewNeighbor) {
         neighbors.push_back(wsm->dup());
     }
 
-    // are neighbors old?
+    // remove neighbors that have exceeded the neighborLifetimeThreshold found in omnetpp.ini
     std::vector<int> indices;
     for (uint i = 0; i < neighbors.size(); ++i) {
         WaveShortMessage* neighbor = neighbors[i];
@@ -88,24 +86,18 @@ void Esbr::onBeacon(WaveShortMessage *wsm)
             indices.push_back(i);
     }
 
-//    // remove old neighbors
-//    for (uint i = 0; i < indices.size(); ++i) {
-//        neighbors.erase(neighbors.begin() + i);
-//    }
-
     vector<WaveShortMessage*> newNeighbors;
     for (uint i = 0; i < indices.size(); ++i) {
         newNeighbors.push_back(neighbors[i]->dup());
     }
-
     neighbors = newNeighbors;
+    // end removing neighbors
 }
 
 
 void Esbr::onData(WaveShortMessage *wsm)
 {
-//    std::cerr << "In Esbr::onData()" << std::endl;
-    // handle stats
+    // statistics recording
     emit(warningReceivedSignal, 1);
     emit(messageReceivedSignal, 1);
     stats->updateAllWarningsReceived();
@@ -115,27 +107,24 @@ void Esbr::onData(WaveShortMessage *wsm)
     if (sentMessage)
         return;
 
+    // add message to receivedMessageMap for this warnings index
     receivedMessageMap[wsm->getTreeId()].push_back(wsm->dup());
 
-    std::cerr << "[DEBUG] receivedMessageMap[wsm->getTreeId()].size(): " << receivedMessageMap[wsm->getTreeId()].size() << std::endl;
-
-    // is this the first time the wsm was received?
+    // is this the first time the warning was received?
     bool isNewWarningMessage = false;
 
     if (receivedMessageMap[wsm->getTreeId()].size() == 1) {
-
-        std::cerr << "[DEBUG] isNewWarningMessage.. node: " << getParentModule()->getIndex() << " simTime(): " << simTime() << " wsm->getTreeId(): " << wsm->getTreeId() << std::endl;
         isNewWarningMessage = true;
+        // record statistics
         stats->updateNewWarningsReceived();
         emit(newWarningReceivedSignal, 1);
     }
 
-    // rebroadcast under conditions:
+    // rebroadcast only under conditions:
     if (isNewWarningMessage) {
         if ((traci->getPositionAt(simTime()).distance(wsm->getSenderPos()) > senderReceiverDistanceThreshold)
                         || (traci->getRoadId() != wsm->getWsmData())
                         || ((traci->getRoadId() == wsm->getWsmData()) && hostIsInJunction())) {
-//            sendMessage(wsm->getWsmData());
             sendWSM(wsm->dup());
         }
     }
@@ -149,10 +138,9 @@ void Esbr::handlePositionUpdate(cComponent::cObject *obj)
                 && (!sentMessage)
                 && (indexOfAccidentNode == getParentModule()->getIndex())) {
 
-            std::cerr << "[DEBUG] ACCIDENT STARTED @simTime: " << simTime().str() << " for node: " << getParentModule()->getIndex() << endl;
+            std::cerr << "[INFO] ACCIDENT STARTED @simTime: " << simTime().str() << " for node: " << getParentModule()->getIndex() << endl;
 
             findHost()->getDisplayString().updateWith("r=16,red");
-//            stats->updateNewWarningsReceived();
             if (!hostIsInWarningMode) {
                 hostIsInWarningMode = true;
                 sendMessage(traci->getRoadId());

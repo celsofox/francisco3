@@ -16,10 +16,13 @@ void Njl::initialize(int stage)
     BaseWaveApplLayer::initialize(stage);
 
     if (stage == 0) {
+
+        // configuration variables found in omnetpp.ini
         hostToJunctionDistanceThreshold = par("hostToJunctionDistanceThreshold").doubleValue();
         sendWarningInterval = par("sendWarningInterval").doubleValue();
         neighborLifetimeThreshold = par("neighborLifetimeThreshold").doubleValue();
         indexOfAccidentNode = par("indexOfAccidentNode").longValue();
+        // end
 
         traci = TraCIMobilityAccess().get(getParentModule());
         stats = FranciscoStatisticsAccess().getIfExists();
@@ -59,7 +62,7 @@ void Njl::onBeacon(WaveShortMessage *wsm)
             isNewNeighbor = false;
     }
 
-    // if it is a new neighbor
+    // if it is a new neighbor, store message
     if (isNewNeighbor) {
         neighbors.push_back(wsm->dup());
     }
@@ -77,6 +80,7 @@ void Njl::onData(WaveShortMessage *wsm)
     if (sentMessage)
         return;
 
+    // add message to storage
     receivedMessageMap[wsm->getTreeId()].push_back(wsm->dup());
 
     // is it a new message?
@@ -105,11 +109,13 @@ void Njl::handleSelfMsg(cMessage *msg)
         return;
     }
 
+    // is it a "rebroadcast" signal?
     else if (msg->getKind() == SCHEDULED_REBROADCAST_EVT) {
         int treeId = atoi(msg->getName());
         WaveShortMessages ms = receivedMessageMap[treeId];
         if ((ms.empty()) || (ms.size() > 1))
             return;
+        // yes, disseminate warning message
         sendWSM(ms[0]->dup());
     }
 }
@@ -126,7 +132,7 @@ void Njl::handlePositionUpdate(cObject *obj)
                 && (!sentMessage)
                 && (indexOfAccidentNode == getParentModule()->getIndex())) {
 
-            std::cerr << "[DEBUG] ACCIDENT STARTED @simTime: " << simTime().str() << " for node: " << getParentModule()->getIndex() << endl;
+            std::cerr << "[INFO] ACCIDENT STARTED @simTime: " << simTime().str() << " for node: " << getParentModule()->getIndex() << endl;
 
             findHost()->getDisplayString().updateWith("r=16,red");
             sendMessage(traci->getRoadId());

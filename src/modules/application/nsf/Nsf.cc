@@ -16,10 +16,10 @@ void Nsf::initialize(int stage)
     BaseWaveApplLayer::initialize(stage);
     if (stage == 0) {
 
-//        std::cerr << "In Nsf::initialize()" << endl;
-
+        // configuration variables found in omnetpp.ini
         neighborLifetimeThreshold = par("neighborLifetimeThreshold").doubleValue();
         indexOfAccidentNode = par("indexOfAccidentNode").longValue();
+        // end
 
         traci = TraCIMobilityAccess().get(getParentModule());
         stats = FranciscoStatisticsAccess().getIfExists();
@@ -40,9 +40,6 @@ void Nsf::receiveSignal(cComponent *source, simsignal_t signalID, cComponent::cO
     if (signalID == mobilityStateChangedSignal) {
         handlePositionUpdate(obj);
     }
-//	else if (signalID == parkingStateChangedSignal) {
-//		handleParkingUpdate(obj);
-//	}
 }
 
 
@@ -76,14 +73,14 @@ void Nsf::onBeacon(WaveShortMessage *wsm)
         for (map<long,WaveShortMessages>::iterator i = receivedWarningMessageMap.begin(); i != receivedWarningMessageMap.end(); ++i) {
             WaveShortMessage* msg = i->second[0];
             ASSERT(msg);
+            // disseminate warning message
             sendWSM(msg->dup());
         }
+        // add new neighbor to neighbors list
         neighbors.push_back(wsm->dup());
     }
 
     // remove the old neighbors
-
-//        neighbors.erase(neighbors.begin() + i);
     WaveShortMessages newNeighborList;
     for (uint i = 0; i < neighbors.size(); ++i) {
         bool keepNeighbor = true;
@@ -119,15 +116,16 @@ void Nsf::onData(WaveShortMessage *wsm)
     }
 
     if (isNewWarning) {
+        // handle stats
         emit(newWarningReceivedSignal, 1);
         stats->updateNewWarningsReceived();
     }
 
-
+    // if there are more than 1 neighbor, disseminate warning
     if (neighbors.size() > 1) {
         sendWSM(wsm->dup());
     }
-
+    // add warning message to received messages storage
     receivedWarningMessageMap[wsm->getTreeId()].push_back(wsm->dup());
 }
 

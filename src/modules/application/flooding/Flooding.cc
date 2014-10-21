@@ -12,8 +12,6 @@ void Flooding::initialize(int stage)
     BaseWaveApplLayer::initialize(stage);
     if (stage == 0) {
 
-//        std::cerr << "In Flooding::initialize()" << endl;
-
         traci = TraCIMobilityAccess().get(getParentModule());
         stats = FranciscoStatisticsAccess().getIfExists();
         ASSERT(stats);
@@ -43,14 +41,13 @@ void Flooding::receiveSignal(cComponent *source, simsignal_t signalID, cComponen
 
 void Flooding::onBeacon(WaveShortMessage *wsm)
 {
-//    std::cerr << "In Flooding::onBeacon()" << endl;
+    // not used for this algorithm
 }
 
 
 void Flooding::onData(WaveShortMessage *wsm)
 {
-//    std::cerr << "In Flooding::onData()" << std::endl;
-
+    // statistics recording
     emit(warningReceivedSignal, 1);
     emit(messageReceivedSignal, 1);
     stats->updateAllWarningsReceived();
@@ -62,29 +59,25 @@ void Flooding::onData(WaveShortMessage *wsm)
 
     bool messageIsRepeat = false;
 
+    // is this a new warning message?
     for (uint i = 0; i < warningMessages.size(); ++i) {
         WaveShortMessage* warningMessage = warningMessages[i];
-
-//        std::cerr << "[DEBUG] wsm->getTreeId(): " << wsm->getTreeId() << " warningMessages[" << i << "]->getTreeId(): " << warningMessage->getTreeId();
-
         if (wsm->getTreeId() == warningMessage->getTreeId()) {
             messageIsRepeat = true;
         }
-//        std::cerr << "   " << messageIsRepeat << std::endl;
     }
 
     if (traci->getRoadId()[0] != ':')
         traci->commandChangeRoute(wsm->getWsmData(), 9999);
 
-    if (!messageIsRepeat /*&& !isRepeat*/) {
+    // rebroadcast only if new message
+    if (!messageIsRepeat) {
         sendWSM(wsm->dup());
 
         stats->updateNewWarningsReceived();
         emit(newWarningReceivedSignal, 1);
 
         warningMessages.push_back(wsm->dup());
-
-//        isRepeat = true;
     }
 }
 
